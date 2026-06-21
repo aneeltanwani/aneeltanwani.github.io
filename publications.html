@@ -1,0 +1,1315 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>Aneel Tanwani</title>
+<meta content="website description" name="description"/>
+<meta content="website keywords, website keywords" name="keywords"/>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<!-- modernizr enables HTML5 elements and feature detects -->
+<script src="js/modernizr-1.5.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+            function ExpandCollapse(theDiv)
+            {
+                el = document.getElementById(theDiv);
+                if(el.style.display == 'none')
+                {
+                    el.style.display = 'block';
+                }
+                else
+                {
+                    el.style.display = 'none';
+                }
+                return false;
+            }
+        </script>
+<style>
+#filters h4 {
+    font-family: inherit;
+    font-size: 1.17em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#filters label {
+    font-size: 1.05em;
+    margin-right: 10px;
+    display: inline-block;
+}
+.yearFilter-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+.topicFilter-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+}
+</style></head>
+<body>
+<div id="main">
+<header>
+<div id="logo">
+<img align="left" border="0" height="105" src="pic_ece.jpg" width="80"/>
+<div id="logo_text">
+<!-- class="logo_colour", allows you to change the colour of the text -->
+<h1>  <a href="index.html"><span class="logo_colour">Aneel Tanwani</span></a></h1>
+<h2>    Researcher, <a href="http://www.laas.fr" style="color:inherit;">LAAS</a> - <a href="http://www.cnrs.fr" style="color:inherit;">CNRS</a></h2>
+</div>
+</div>
+<nav>
+<div id="menu_container">
+<ul class="sf-menu" id="nav">
+<li><a href="index.html">Home</a></li>
+<li><a href="biography.html">About Me</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="projects.html">Projects</a>
+<ul>
+<li><a href="ConVan.html">ConVan</a></li>
+<li><a href="https://dirobs.laas.fr">DiRObs</a></li>
+<li><a href="CyPhAI.html">CyPhAI</a></li>
+</ul></li>
+<li><a href="teaching.html">Teaching</a></li>
+<li><a href="group.html">People</a>
+<ul>
+<li><a href="group.html">Collaborators</a></li>
+<li><a href="group.html">Group</a></li>
+</ul></li>
+</ul>
+</div>
+</nav>
+</header>
+<div id="site_content">
+
+This webpage is not updated on regular basis.
+The preprints of my articles can be found on <a href="https://cv.hal.science/aneel-tanwani">HAL</a> <br/>
+Please consult the publisher's website for final version and appropriate citations of the results.
+You may find the following legend useful:<br/>
+[J]: Journal      [C]: Conference proceedings with peer reviews      [Bc]: Book chapter
+     [W]: Workshop/Meetings without peer review      [p]: preprirnt/ unpublished article
+<br/>
+<br/>
+
+<div id="filters" style="margin-bottom:15px;">
+<div>
+<h4>Year:</h4>
+<div class="yearFilter-container">
+<label><input class="yearFilter" type="checkbox" value=""/> All</label>
+</div>
+</div>
+<br/>
+<br/>
+<div>
+<h4>Type:</h4>
+<div class="typeFilter-container">
+<label><input class="typeFilter" type="checkbox" value=""/> All</label>
+</div>
+</div>
+<br/>
+<br/>
+<div>
+<h4>Topic:</h4>
+<div class="topicFilter-container">
+<label><input class="topicFilter" type="checkbox" value=""/> All</label>
+</div>
+</div>
+</div>
+
+<h3><font color="B22222">2026:</font></h3>
+
+
+<p data-topic="Switched/Hybrid Systems,Stability,Nonlinear Analysis,Networks,Observers,Lyapunov Functions" data-type="Preprint" data-year="2026"><b>[C46] On Asymptotic Stability of Hybrid Systems with Frequent Updates and Sampled-Data Observers</b><br/>
+    A. Tanwani, H. Shim, A.R. Teel<br/>
+     <i>European Control Conference (ECC)</i>, 2026.<br/>
+     <a href="javascript:ExpandCollapse('absASSingPertObs')">Abstract</a>&nbsp;&nbsp;
+     <a href="refs/as_singPert_obs_pre.pdf"> Preprint</a>&nbsp;&nbsp;
+     <a href="refs/as_singPert_obs.pdf"> Preprint</a></p>
+<div class="mid" id="absASSingPertObs" style="display:none"><p><font size="2">
+    This paper investigates the stability of a class of hybrid systems featuring rapidly occurring discrete transitions, analyzed through the lens of singular perturbation theory. The considered model consists of the interconnection of two hybrid subsystems, a timer governing the jump instants, and discrete variables determining the indices of the jump maps. The evolution of these variables during flows is described by singularly perturbed differential equations, where smaller values of the perturbation parameter correspond to increased jump frequency. In the limiting case of this parameter, the system is decomposed into a quasi steady-state subsystem, modeled by a continuous differential equation without jumps, and a boundary-layer subsystem governed by purely discrete dynamics. Building upon our previous work that established practical stability, this paper derives sufficient conditions for the asymptotic stability of a compact attractor by imposing suitable assumptions on both the quasi steady-state and boundary-layer subsystems. As an application, we address the design of observers for nonlinear systems with time-sampled measurements and show that detectability of the system ensures asymptotic stability of the estimation error under an appropriate detectability condition.
+</font></p></div>
+
+<p data-topic="Filtering,Optimization" data-type="Preprint" data-year="2026"><b>[C45] A Gaussian Surrogate of Partially Observed Stochastic Processes using Wasserstein Metric</b><br/>
+    S.P. Chhatoi,   I. Ramadan, A. Tanwani<br/>
+     <i>European Control Conference (ECC)</i>, 2026.<br/>
+     <a href="javascript:ExpandCollapse('absW2FiltConf')">Abstract</a>&nbsp;&nbsp;
+     <a href="refs/W2FiltConf_cam.pdf"> Final submission (6 pages) </a>&nbsp;&nbsp;
+     <a href="refs/W2FiltConf_long.pdf"> Long version (8 pages)</a>&nbsp;&nbsp;
+     <a href="https://hal.science/hal-05487303"> Preprint (HAL) </a></p>
+<div class="mid" id="absW2FiltConf" style="display:none"><p><font size="2">
+    Approximating the evolution of probability measures for nonlinear stochastic differential equations (SDEs) and the associated nonlinear filtering problems is a challenging problem as it involves solving high-dimensional differential equations. In contrast to classical variational inference methods which address this challenge by minimizing the Kullback-Leibler (KL) divergence between the true and approximate distributions, we propose a Wasserstein-based variational framework for approximating the laws of stochastic systems. In particular, instead of minimizing the KL divergence, our approach minimizes the Wasserstein-2 ($W_2$) distance between the joint probability distributions of the state and observation processes. This formulation respects the underlying transport geometry and results in evolution equations for Gaussian parameters that provide an approximation of the dynamics of the true measure. An illustration is provided for some of our results with the help of an academic example.
+</font></p></div>
+
+<p data-topic="Observers,Nonlinear Analysis,Nonsmooth Systems" data-type="Preprint" data-year="2026"><b>[C44] Extending KKL Observer Design to Systems with Non-Unique Backward Solutions</b><br/>
+    V. Alleaume,    P. Bernard,    A. Tanwani,  F. Di Meglio<br/>
+     <i>IFAC World Congress</i>, 2026.<br/>
+     <a href="javascript:ExpandCollapse('absKKLnonunique')">Abstract</a>&nbsp;&nbsp;
+     <a href="refs/kkl_nonunique_conf_pre.pdf"> Preprint</a>&nbsp;&nbsp;
+     <a href="refs/kkl_nonunique_conf.pdf"> Preprint</a></p>
+<div class="mid" id="absKKLnonunique" style="display:none"><p><font size="2">
+    Kazantzis-Kravaris-Luenberger (KKL) observers consist in finding a smooth mapping T that transforms the system dynamics into a linear filter of the output in a space of larger dimension. Indeed, an observer is then obtained by running the filter and left-inverting the transformation to recover an estimate of the state, if the mapping is injective. In this paper, we are interested in adapting this framework to systems with non-unique backward solutions, a situation which can typically occur in nonsmooth systems. In this setting, the mapping T naturally becomes set-valued which is out of the scope of the current theory and calls for more general concepts of injectivity and regularity. We prove that upper semi continuity, local boundedness and set-valued injectivity of this map are sufficient conditions for designing a converging KKL observer. We show that the former two are satisfied for Carathéodory ODEs and Filippov differential inclusions. We also provide examples for which set-valued injectivity is satisfied and discuss its link with distinguishability. Finally, we illustrate the numerical implementation of this methodology on an harmonic oscillator subject to friction.
+</font></p></div>
+
+<p data-topic="Switched/Hybrid Systems,Stability,Nonlinear Analysis,Lyapunov Functions" data-type="Preprint" data-year="2026"><b>[C43] Converse Lyapunov Theorem for Switched Nonlinear Systems with Constrained Switching Signals</b><br/>
+    S. Liu, M. Della Rossa, A. Tanwani<br/>
+     <i>IFAC World Congress</i>, 2026.<br/>
+     <a href="javascript:ExpandCollapse('absConvSwSysConst')">Abstract</a>&nbsp;&nbsp;
+     <a href="refs/convSwSysConst_pre.pdf"> Preprint</a>&nbsp;&nbsp;
+     <a href="refs/convSwSysConst.pdf"> Preprint</a></p>
+<div class="mid" id="absConvSwSysConst" style="display:none"><p><font size="2">
+    This paper investigates converse Lyapunov theorems for switched nonlinear systems comprising both stable and unstable subsystems, uniformly over a constrained set of switching signals. A novel hybrid timer is introduced to quantify switching behavior, and the considered class of signals--characterized by a uniformly bounded hybrid timer--encompasses known signal classes defined by mixed average dwell-time and average activation-time conditions. The main result is a necessary and sufficient condition, expressed via the existence of multiple Lyapunov functions with prescribed decay or growth rates at flows and jumps, ensuring global uniform asymptotic stability uniformly over this set of switching signals. The proof employs extended classes of comparison functions and a constructive analysis tailored to hybrid-timer-based signal models. This work extends previous results, offering a deeper understanding of stability in switched systems with both stabilizing and destabilizing dynamics.
+</font></p></div>
+
+<p data-topic="Nonsmooth Systems,Interconnections" data-type="Preprint" data-year="2025"><b>[J35] Passivity Preservation in Interconnections of Linear Cone Complementarity Systems with State Jumps</b><br/>
+     B. Brogliato,   A.Tanwani<br/>
+     <i>Nonlinear Analysis: Hybrid Systems</i>, 60:101682, 2026.<br/>
+     <a href="javascript:ExpandCollapse('absPassIntLCCS25')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://doi.org/10.1016/j.nahs.2026.101682"> Publisher's Link</a>&nbsp;&nbsp;
+     <a href="https://laas.hal.science/hal-04137144v5/document"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://homepages.laas.fr/atanwani/bibentries/2026_nahs.html"> BibTeX</a></p>
+<div class="mid" id="absPassIntLCCS25" style="display:none"><p><font size="2">
+    This article is largely concerned with generic interconnections of a class of passive nonsmooth nonlinear dynamical systems, namely linear cone complementarity systems (LCCS). We stipulate that each subsystem admits a positive definite storage function that characterizes the passivity of an underlying nonsmooth mapping. We provide algebraic criteria in terms of these individual storage functions to find the storage function which guarantees passivity of the overall interconnected system. State jumps in the interconnections are studied in detail. Examples from dynamic feedback control, switching DAEs and nonsmooth circuits are included as an illustration of the theoretical developments.
+</font></p></div>
+
+
+
+<h3><font color="B22222">2025:</font></h3>
+
+<p data-topic="Filtering,Stability,Random Sampling" data-type="Preprint" data-year="2025"><b>[pJxx] Asymptotics of Ensemble Filters for Linear Stochastic Systems with Poisson-Sampled Observations</b><br/>
+     O. Yufereva,  A. Tanwani<br/>
+     <i>Submitted for Publication</i>, 2025.<br/>
+     <a href="javascript:ExpandCollapse('absEnKfPoisson25')">Abstract</a>&nbsp;&nbsp;
+     <a href="refs/jnlPoissonEnKF_pre.pdf"> Manuscript</a>&nbsp;&nbsp;
+     <a href="refs/jnlPoissonEnKF.pdf"> Manuscript</a>&nbsp;&nbsp;
+     <a href="https://laas.hal.science/hal-05402213">HAL link</a></p>
+<div class="mid" id="absEnKfPoisson25" style="display:none"><p><font size="2">
+    For continuous-time linear stochastic dynamical systems driven by Wiener processes, we consider the problem of designing ensemble filters when the observation process is randomly time-sampled. For the design of ensemble filters, we consider a class of continuous-discrete diffusion processes with additive Gaussian noise and several design parameters, which are used to describe the evolution of the individual particles in the ensemble. These particles are coupled through the empirical covariance, and in some cases empirical mean as well, and require less computations for implementation than the optimal ones based on solving Riccati differential equations. For different choices of parameters, we can recover some common design techniques from the literature. Our focus in this work is on analyzing the asymptotic (in time) performance of these filters for sufficiently large number of particles. Using appropriate analysis tools, we derive differential equations to describe the expectation of empirical mean and sample covariance of the ensemble filters with respect to the sampling process and noise. The solutions of these differential equations (describing empirical moments) are shown to converge asymptotically to the mean and covariance of the optimal filter under certain conditions on the mean sampling rate of the observation process, and as the number of particles tends to infinity.
+</font></p></div>
+
+<p data-topic="Nonsmooth Systems,Optimal Control" data-type="Preprint" data-year="2025"><b>[pJxx] Optimal Control of State Constrained Systems via Measure Relaxations and Polynomial Optimization</b><br/>
+     S.P. Chhatoi,  A. Tanwani, D. Henrion<br/>
+     <i>Submitted for Publication</i>, 2025.<br/>
+     <a href="javascript:ExpandCollapse('absOCNsd25')">Abstract</a>&nbsp;&nbsp;
+     <a href="refs/OCNsd.pdf"> Preprint</a></p>
+<div class="mid" id="absOCNsd25" style="display:none"><p><font size="2">
+    We address the optimal control problem for a class of dynamical systems with constrained state trajectories. These systems are modeled by a differential inclusion with a drift term and a normal cone mapping associated with the constraint set. The optimal control problem is considered in continuous-time and discrete-time, where the latter provides a computational advantage over the former. In both cases, the nonlinear problem is reformulated as an infinite-dimensional linear program over occupation measures. We show that this does not introduce any relaxation gap, that is, the optimal value remains the same for the reformulated linear program. Using appropriate tools from functional analysis and optimal transport, we also show the convergence of the optimal value of the discrete problem to the optimal value of the continuous problem. We propose finite-dimensional convex optimization algorithms based on the moment-sum-of-squares hierarchy to provide numerical approximations of the proposed infinite-dimensional linear programs.
+</font></p></div>
+
+<p data-topic="Switched/Hybrid Systems,Nonsmooth Systems,Interconnections,Nonlinear Analysis,Stability,Lyapunov Functions,Filtering,Random Sampling,Networks,Optimization" data-type="Other" data-year="2025"><b>[HdR] Analysis of Interconnected Systems with Nonlinear and Hybrid Dynamics</b><br/>
+     A. Tanwani<br/>
+     <i>University of Toulouse (Paul Sabatier)</i>, 14 March 2025.<br/>
+     <a href="javascript:ExpandCollapse('absHdR2025')">Abstract</a>
+     <a href="hdr_Tanwani_25.pdf"> Final Draft</a>
+     <a href="hdr.html">Jury and Details</a> </p>
+<div class="mid" id="absHdR2025" style="display:none"><p><font size="2">
+    The complexity of modern control systems can often be attributed to two elements: firstly, such systems involve logic-based decision making which results in dynamics at different time scales, and secondly, these systems comprise several subsystems which play an important role in shaping the properties of the integrated system. Following this viewpoint, the thesis addresses the analysis techniques for interconnection of systems described by switching, nonsmooth, or more generally, hybrid dynamics in both deterministic and stochastic framework.<br/>
+
+    Starting from some earlier work, we first present the classical cascade configuration for time-dependent switched systems where  the stability conditions are formulated for a certain class of switching signals using multiple Lyapunov functions, and the notion of input-to-state stability. As a generalization, and using the tools from nonsmoth analysis, we study the feedback interconnections of Filippov differential inclusions (for state-dependent switched systems) with application to observer-based control, and anti-maximal monotone differential inclusions (for projected systems, complementarity systems, and sweeping processes) with application to analyzing certain optimization algorithms. Moving forward, and in the spirit of studying a broader class of interconnections, we study graph-coupled nonlinear systems where the exchange of information between agents is described by switching, but jointly-connected, graphs. The analysis of such systems is carried out by developing singular perturbation theory for hybrid systems, where we propose a novel decomposition of hybrid systems resulting in a continuous-time quasi-steady-state system and a purely discrete-time boundary layer system with constrained switching. We provide conditions for asymptotic practical stability, which in the setting of graph-based interconnections, translate to checking some properties of the graphs and the stability of reduced-order subsystems.<br/>
+
+    In the final part of the thesis, we step away from the deterministic framework and study interconnections in stochastic setting that appear in the design of certain filtering algorithms. The first such class of interconnections is seen in ensemble filters (for systems described by stochastic differential equations and discrete observations) where we propose algorithms for computing the approximation of the posterior distribution of the state conditioned upon the measurements by simulating particles resulting from continuous-discrete McKean-Vlasov type differential equations. We then develop appropriate tools for analyzing the interconnection of particles coupled to each other via the empirical mean and empirical covariance. Another class of interconnections is seen in studying filtering algorithms with unknown parameters (such as noise covariances), where we use Bayesian inference algorithms and the optimal estimate is described by a probabilisitic weighted sum of the conditional posteriors. Under certain assumptions on system dynamics, we study asymptotic convergence for such algorithms towards the optimal solution determined by complete information of the parameters.
+</font></p></div>
+<p data-topic="Filtering,Stability,Random Sampling" data-type="Journal" data-year="2025"><b>[J34] Steady State Analysis of Kalman Filters with Poisson-Sampled Observations</b><br/>
+     A. Dasgupta,   A. Tanwani<br/>
+     <i>Systems and Control Letters</i>, 2025.<br/>
+     <a href="javascript:ExpandCollapse('absSSKF25')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://laas.hal.science/hal-04798886"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://laas.hal.science/hal-04798886">Publisher's Link</a>&nbsp;&nbsp;
+     <a href="bibentries/2025_sclb.html"> BibTeX</a></p>
+<div class="mid" id="absSSKF25" style="display:none"><p><font size="2">
+    We study optimal filtering for continuous-time linear stochastic systems with Poisson-sampled observation processes. For each realization of the sampled observation process, the posterior distribution is a Gaussian process whose mean and covariance are described by continuous-discrete process. We are particularly interested in analyzing the expectation of the first and second moment of the estimation error with respect to the sampling process. Using the system-theoretic properties like observability and controllability, our results provide tractable conditions on the mean sampling rate for convergence of the expected error covariance, its boundedness and convergence of expected estimation error to zero. Some comparisons are also drawn with the solution of Riccati differential equation associated with the continuous-observation process.
+</font></p></div>
+<p data-topic="Nonsmooth Systems,Optimization" data-type="Journal" data-year="2025"><b>[J33] Evolution of Measures in Nonsmooth Dynamical Systems: Formalisms and Computation</b><br/>
+     S. Chhatoi,   A. Tanwani,   D. Henrion<br/>
+     <i>Automatica</i>, 2025.<br/>
+     <a href="javascript:ExpandCollapse('absEvoMeasAut25')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://laas.hal.science/hal-04570185v2"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1016/j.automatica.2025.112402">Publisher's Link</a>&nbsp;&nbsp;
+     <a href="bibentries/2025_autb.html"> BibTeX</a></p>
+<div class="mid" id="absEvoMeasAut25" style="display:none"><p><font size="2">
+    This article develops mathematical formalisms and provides numerical methods for studying the evolution of measures in nonsmooth dynamical systems using the continuity equation. The nonsmooth dynamical system is described by an evolution variational inequality and we derive the continuity equation associated with this system class using three different formalisms. The first formalism consists of using the {superposition principle} to describe the continuity equation for a measure that disintegrates into a probability measure supported on the set of vector fields and another measure representing the distribution of system trajectories at each time instant. The second formalism is based on the regularization of the nonsmooth vector field and describing the measure as the limit of a sequence of measures associated with the regularization parameter. In doing so, we obtain quantitative bounds on the Wasserstein metric between measure solutions of the regularized vector field and the limiting measure associated with the nonsmooth vector field. The third formalism uses a time-stepping algorithm to model a time-discretized evolution of the measures and show that the absolutely continuous trajectories associated with the continuity equation are recovered in the limit as the sampling time goes to zero. We also validate each formalism with numerical examples. For the first formalism, we use polynomial optimization techniques and the moment-SOS hierarchy to obtain approximate moments of the measures. For the second formalism, we illustrate the bounds on the Wasserstein metric for an academic example for which the closed-form expression of the Wasserstein metric can be calculated. For the third formalism, we illustrate the time-stepping based algorithm for measure evolution on an example that shows the effect of the concentration of measures.
+</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Stability,Nonlinear Analysis,Networks,Lyapunov Functions" data-type="Journal" data-year="2025"><b>[J32] Singularly Perturbed Hybrid Systems for Analysis of Networks with Frequently Switching Graphs</b><br/>
+     A. Tanwani,   H. Shim,   A. Teel<br/>
+     <i>IEEE Transactions on Automatic Control</i>, 2025.<br/>
+     <a href="javascript:ExpandCollapse('absSingPertHyb25')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://laas.hal.science/hal-04855233"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1109/TAC.2024.3523242">Publisher's Link</a>&nbsp;&nbsp;
+     <a href="bibentries/2025_tac.html"> BibTeX</a></p>
+<div class="mid" id="absSingPertHyb25" style="display:none"><p><font size="2">
+    For a class of hybrid systems, where jumps occur frequently, we analyze the stability of system trajectories in view of singularly perturbed dynamics. The specific model we consider comprises an interconnection of two hybrid subsystems, a timer which triggers the jumps, and some discrete variables to determine the index of the jump maps. The flow equations of these variables are singularly perturbed differential equations and, in particular, a smaller value of the singular perturbation parameter leads to an increase in the frequency of the jump instants. For the limiting value of this parameter, we consider a decomposition which comprises a quasi-steady-state system modeled by a differential equation without any jumps and a boundary-layer system described by purely discrete dynamics. Under appropriate assumptions on the quasi-steady-state system and the boundary-layer system, we derive results showing practical stability of a compact attractor when the jumps occur sufficiently often. As an application of our results, we discuss the control design problem in a network of second-order continuous-time coupled oscillators, where each agent communicates the information about its position to some of its neighbors at discrete times. Using the results developed in this article, we show that if the union of the communication graphs being used for information exchange between agents is connected, then the oscillators achieve practical consensus.
+</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Stability,Nonlinear Analysis,Lyapunov Functions" data-type="Journal" data-year="2025"><b>[J31] Converse Lyapunov Results for Stability of Switched Systems with Average Dwell-Time</b><br/>
+     M. Della Rossa,   A. Tanwani<br/>
+     <i>ESAIM: Calculus of Variations and Optimal Control</i>, 2025.<br/>
+     <a href="javascript:ExpandCollapse('absConvADT25')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://laas.hal.science/hal-04616636v2"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1051/cocv/2025006">Publisher's Link</a>&nbsp;&nbsp;
+     <a href="bibentries/2025_ecocv.html"> BibTeX</a></p>
+<div class="mid" id="absConvADT25" style="display:none"><p><font size="2">
+    This article provides a characterization of stability for switched nonlinear systems under average dwell-time constraints, in terms of necessary and sufficient conditions involving multiple Lyapunov functions. Earlier converse results focus on switched systems with dwell-time constraints only, and the resulting inequalities depend on the flow of individual subsystems. With the help of a counterexample, we show that a lower bound that guarantees stability for dwell-time switching signals may not necessarily imply stability for switching signals with same lower bound on the average dwell-time. Based on these two observations, we provide a converse result for the average dwell-time constrained systems in terms of inequalities which do not depend on the flow of individual subsystems and are easier to check. The particular case of linear switched systems is studied as a corollary to our main result.
+</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Stability,Nonlinear Analysis,Lyapunov Functions" data-type="Journal" data-year="2025"><b>[J30] Impulsive switching signals with functional inequalities: Stability analysis using hybrid systems framework</b><br/>
+     S. Liu,   A. Tanwani<br/>
+     <i>Automatica</i>, 2025.<br/>
+     <a href="javascript:ExpandCollapse('absImpFunc25')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://laas.hal.science/hal-04707528"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1016/j.automatica.2024.111928">Publisher's Link</a>&nbsp;&nbsp;
+     <a href="bibentries/2025_auta.html"> BibTeX</a></p>
+<div class="mid" id="absImpFunc25" style="display:none"><p><font size="2">
+    In this work, we introduce a class of impulsive switching signals described via functional inequalities which govern the switching among different modes with state resets. By choosing the parameters of the inequalities appropriately, we can recover several known classes of switching signals and also allow for signals that depend on time, mode or state of the system. Signals from this class can also be generated online via the use of an auxiliary timer while the dynamical system is running. Via a multiple Lyapunov functions approach, we provide sufficient conditions on the functional parameters of the switching signal which ensure that the equilibrium is globally asymptotically stable (GAS) for autonomous impulsive switched system. In case of inputs, similar methodology is used to provide sufficient conditions for input-to-state stability (ISS) and integral-input-tostate stability (iISS) uniformly over the proposed class of impulsive switching signals. As case studies, we consider switched systems which do not satisfy ISS (respectively, iISS) property for switching signals with arbitrarily large dwell-times but they are shown to be ISS (resp. iISS) for our proposed class of impulsive switchings signals described via functional inequalities.
+</font></p></div>
+<p data-topic="Quantization,Stability" data-type="Journal" data-year="2025"><b>[J29] Exponential stabilization of linear systems using nearest-action control with countable input set</b><br/>
+     M.Z. Almuzakki,   B. Jayawardhana,   A.Tanwani,   A. Vakis.<br/>
+     <i>Systems and Control Letters</i>, 2025.<br/>
+     <a href="javascript:ExpandCollapse('absExpNNC25')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://laas.hal.science/hal-04826783"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1016/j.sysconle.2024.105992">Publisher's Link</a>&nbsp;&nbsp;
+     <a href="bibentries/2025_scla.html"> BibTeX</a></p>
+<div class="mid" id="absExpNNC25" style="display:none"><p><font size="2">
+    This paper studies stabilization of linear time-invariant (LTI) systems when control actions can only be realized in finitely many directions where it is possible to actuate uniformly or logarithmically extended positive scaling factors in each direction. Furthermore, a nearest-action selection approach is used to map the continuous measurements to a realizable action where we show that the approach satisfies a weak sector condition for multiple-input multiple-output (MIMO) systems. Using the notion of input-to-state stability, under some assumptions imposed on the transfer function of the system, we show that the closed-loop system converges to the target ball exponentially fast. Moreover, when logarithmic extension for the scaling factors is realizable, the closed-loop system is able to achieve asymptotic stability instead of only practical stability. Finally, we present an example of the application that confirms our analysis.
+</font></p></div>
+
+<p data-topic="Filtering,Stability,Networks,Interconnections" data-type="Preprint" data-year="2025"><b>[C42] Interacting Kalman Filters for Linear Systems with Coupling Based on Empirical Covariances</b><br/>
+     A. Tanwani<br/>
+     <i>IEEE Conference on Decision and Control</i>, 2025.<br/>
+     <a href="javascript:ExpandCollapse('absdistFiltEmp25')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://laas.hal.science/hal-05394048"> Preprint</a>&nbsp;&nbsp;
+     <a href="bibentries/2025_cdc.html"> BibTeX</a></p>&nbsp;&nbsp;
+<div class="mid" id="absdistFiltEmp25" style="display:none"><p><font size="2">
+    The problem of designing estimators for stochastic linear systems with distributed observations is considered. Each observation process is associated to a node in an undirected graph, which is used to compute a local estimate at the node. The injection gain used in the filter at each node is obtained from the empirical covariance of all the estimates available at that node. This way the underlying idea comes from the theory of ensemble filtering and we analyze the evolution of the coupled covariances over the entire graph. After providing a detailed derivation of the evolution of covariance matrix, we observe that the drift term in the differential equation for the coupled covariances has some inherent stability structure in case of regular graphs, which leads to the fluctuations around the steady state. We provide an illustration of our algorithm on an academic example while comparing it with centralized and ensemble Kalman filters.
+</font></p></div>
+
+<h3><font color="B22222">2024:</font></h3>
+<p data-topic="Filtering,Data-driven,Random Sampling" data-type="Conference" data-year="2024"><b>[C41] On Analyzing Filters with Bayesian Parameter Inference and Poisson-Sampled Observations</b><br/>
+     A.Tanwani<br/>
+     <i>IEEE Conference on Decision and Control (CDC)</i>, 2024.<br/>
+     <a href="javascript:ExpandCollapse('absBayesKF24')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://laas.hal.science/hal-04855941"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1109/CDC56724.2024.10886415">Publisher's Link</a>&nbsp;&nbsp;
+     <a href="bibentries/2024_cdca.html"> BibTeX</a></p>
+<div class="mid" id="absBayesKF24" style="display:none"><p><font size="2">
+    The problem of state estimation in continuous-time linear stochastic systems is considered with several constraints on the available information. It is stipulated that the model of the system contains several unknown parameters and the observation process is randomly time-sampled. The classical solution due to Kalman-Bucy cannot be implemented in that case, and we revisit the idea of partitioning the set of unknown parameters, and consider multiple filters corresponding to each possible value of the unknown parameter. The posterior distribution of the unknown parameters conditioned upon available observations is computed from Bayes' rule. The resulting state estimate is a weighted sum of the state estimates generated by multiple Kalman filters, where the weights are determined by the posterior distribution of the unknown parameters. We analyze the performance of the algorithm by looking at its asymptotic behavior and establishing boundedness of the error covariance matrix.
+</font></p></div>
+<p data-topic="Nonsmooth Systems,Optimization,Optimal Control" data-type="Conference" data-year="2024"><b>[C40] Optimal Control of Nonsmooth Dynamical Systems using Measure Relaxations</b><br/>
+     S.P. Chhatoi, &nbsp; A.Tanwani,  D. Henrion<br/>
+     <i>IEEE Conf. on Decision and Control</i>, 2024.<br/>
+     <a href="javascript:ExpandCollapse('absOCNsDCDC24')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://laas.hal.science/hal-04701838"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1109/CDC56724.2024.10885896">Publisher's Link</a>&nbsp;&nbsp;
+     <a href="bibentries/2024_cdcb.html"> BibTeX</a></p>
+<div class="mid" id="absOCNsDCDC24" style="display:none"><p><font size="2">
+    We address the problem of optimal control of a nonsmooth dynamical system described by an evolution variational inequality. We consider both the discrete-time and continuous-time versions of the problem and we relax the problem in the space of measures. We show that there is no gap between the original finite-dimensional problem and the relaxed problem. We show the convergence of the relaxed discrete-time optimal control in measures to continuous-time optimal control in measures. This paves the way to a sound implementation of the moment sum-of-squares hierarchy to solve numerically the optimal control of nonsmooth dynamical systems.
+</font></p></div>
+<p data-topic="Filtering,Stability,Random Sampling" data-type="Conference" data-year="2024"><b>[C39] Convergence Analysis of Ensemble Filters for Linear Stochastic Systems with Poisson-Sampled Observations</b><br/>
+     A.Tanwani;   O. Yufereva<br/>
+     <i>International Symposium on Mathematical Theory of Networks and Systems (MTNS)</i>, 2024.<br/>
+     <a href="javascript:ExpandCollapse('absEnsKF24mtns')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://laas.hal.science/hal-04616321"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://doi.org/10.1016/j.ifacol.2024.10.164">Publisher's Link</a>&nbsp;&nbsp;
+     <a href="bibentries/2024_mtns.html"> BibTeX</a></p>
+<div class="mid" id="absEnsKF24mtns" style="display:none"><p><font size="2">
+    For continuous-time linear stochastic dynamical systems driven by Wiener processes, we consider the problem of designing ensemble filters when the observation process is randomly time-sampled. We propose a continuous-discrete McKean--Vlasov type diffusion process with additive Gaussian noise in observation model, which is used to describe the evolution of the individual particles in the ensemble. These particles are coupled through the empirical covariance and require less computations for implementation than the optimal ones based on solving Riccati differential equations. Using appropriate analysis tools, we show that the empirical mean and the sample covariance of the ensemble filter converges to the mean and covariance of the optimal filter if the mean sampling rate of the observation process satisfies certain bounds and as the number of particles tends to infinity.
+</font></p></div>
+<h3><font color="B22222">2023:</font></h3>
+<p data-topic="Nonsmooth Systems" data-type="Journal" data-year="2023"><b>[J28] Existence and Completeness of Solutions to Extended Projected Dynamical Systems and Sector-Bounded Projection-Based Controllers</b><br/>
+     W.P.M.H. (Maurice) Heemels   A.Tanwani<br/>
+     <i>IEEE Control Systems Letters</i>, 2023.<br/>
+     <a href="javascript:ExpandCollapse('absSolEPDS23')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://laas.hal.science/hal-04161682"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1109/LCSYS.2023.3274954"> Publisher's Link</a>&nbsp;&nbsp;
+     <a href="bibentries/2023_lcss.html"> BibTeX</a></p>
+<div class="mid" id="absSolEPDS23" style="display:none"><p><font size="2">
+    Projection-based control (PBC) systems have significant engineering impact and receive considerable scientific attention. To properly describe closed-loop PBC systems, extensions of classical projected dynamical systems are needed, because partial projection operators and irregular constraint sets (sectors) are crucial in PBC. These two features obstruct the application of existing results on existence and completeness of solutions. To establish a rigorous foundation for the analysis and design of PBC, we provide essential existence and completeness properties for this new class of discontinuous systems.
+</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Lyapunov Functions,Optimization" data-type="Journal" data-year="2023"><b>[J27] Linear programming based lower bounds on average dwell-time via multiple Lyapunov functions</b><br/>
+     S. Hafstein   A.Tanwani<br/>
+     <i>European Journal of Control</i>, 2023.<br/>
+     <a href="javascript:ExpandCollapse('absLPDT23')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://laas.hal.science/hal-04161620"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1016/j.ejcon.2023.100838"> Publisher's Link</a>&nbsp;&nbsp;
+     <a href="bibentries/2023_ejc.html"> BibTeX</a></p>
+<div class="mid" id="absabsLPDT23" style="display:none"><p><font size="2">
+    With the objective of developing computational methods for stability analysis of switched systems, we consider the problem of finding the minimal lower bounds on average dwell-time that guarantee global asymptotic stability of the origin. Analytical results in the literature quantifying such lower bounds assume existence of multiple Lyapunov functions that satisfy some inequalities. For our purposes, we formulate an optimization problem that searches for the optimal value of the parameters in those inequalities and includes the computation of the associated Lyapunov functions. In its generality, the problem is nonconvex and difficult to solve numerically, so we fix some parameters which results in a linear program (LP). For linear vector fields described by Hurwitz matrices, we prove that such programs are feasible and the resulting solution provides a lower bound on the average dwell-time for exponential stability. Through some experiments, we compare our results with the bounds obtained from other methods in the literature and we report some improvements in the results obtained using our method.
+</font></p></div>
+<p data-topic="Nonsmooth Systems,Optimization" data-type="Journal" data-year="2023"><b>[J26] Ensemble Approximations for Constrained Dynamical Systems using Liouville Equation</b><br/>
+     M. Souaiby   A.Tanwani   D. Henrion<br/>
+     <i>Automatica</i>, 2023.<br/>
+     <a href="javascript:ExpandCollapse('absEnsSDP23')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://laas.hal.science/hal-03167458v3"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1016/j.automatica.2022.110836"> Publisher's Link</a>&nbsp;&nbsp;
+     <a href="bibentries/2023_aut.html"> BibTeX</a></p>
+<div class="mid" id="absEnsSDP23" style="display:none"><p><font size="2">
+    For a class of state-constrained dynamical systems described by evolution variational inequalities, we study the time evolution of a probability measure which describes the distribution of the state over a set. In contrast to smooth ordinary differential equations, where the evolution of this probability measure is described by the Liouville equations, the flow map associated with the nonsmooth differential inclusion is not necessarily invertible and one cannot directly derive a continuity equation to describe the evolution of the distribution of states. Instead, we consider Lipschitz approximation of our original nonsmooth system and construct a sequence of measures obtained from Liouville equations corresponding to these approximations. This sequence of measures converges in weak-star topology to the measure describing the evolution of the distribution of states for the original nonsmooth system. This allows us to approximate numerically the evolution of moments (up to some finite order) for our original nonsmooth system, using a solver that uses finite order moment approximations of the Liouville equation. Our approach is illustrated with the help of an academic example.
+</font></p></div>
+<p data-topic="Filtering" data-type="Conference" data-year="2023"><b>[C38] Transport Inspired Particle Filters with Poisson-Sampled Observations in Gaussian Setting</b><br/>
+     O. Yufereva   A. Tanwani<br/>
+     <i>62nd IEEE Conf. on Decision and Control</i>, 2023.<br/>
+     <a href="javascript:ExpandCollapse('absDEKFCDC23')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://laas.hal.science/hal-04489396"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1109/CDC49753.2023.10384088">Publisher's Link</a> &nbsp;&nbsp;
+     <a href="bibentries/2023_cdc.html"> BibTeX</a></p>
+<div class="mid" id="absDEKFCDC23" style="display:none"><p><font size="2">
+    Motivated by the need for developing computationally efficient solutions to filtering problem with limited information, this article develops particle filtering algorithms for continuous-time stochastic processes with time-sampled observation process. The state process is modeled by a continuous-time linear stochastic differential equation driven by Wiener process, and the observation process is a linear mapping of the state with additive Gaussian noise. For practical reasons, we assume that the observations are time-sampled and the underlying sampling process is a Poisson counter. With the aim of developing particle filters for this system, we first propose a mean-field type process which is an observation-driven stochastic differential equation such that the conditional distribution of this process given the observations coincides with the optimal filtering distribution. This model is then used to simulate a collection of particles which are driven only by the sample mean and sample covariance, without simulating the differential equation for the covariance matrix. It is shown that the dynamics of the sample mean and the sample covariance coincide with the optimal ones. An academic example is included for illustration.
+</font></p></div>
+<h3><font color="B22222">2022:</font></h3>
+<p data-topic="Filtering,Networks,Stability,Random Sampling" data-type="Journal" data-year="2022"><b>[J25] Suboptimal Filtering over Sensor Networks with Random Communication</b><br/>
+     A. Tanwani<br/>
+     <i>IEEE Transactions on Automatic Control</i>, 2022.<br/>
+     <a href="javascript:ExpandCollapse('absSubDistEst22')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://laas.hal.science/hal-03106998v3"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1109/TAC.2021.3116180">Publisher's Link</a> &nbsp;&nbsp;
+     <a href="bibentries/2022_tacc.html"> BibTeX</a></p>
+<div class="mid" id="absSubDistEst22" style="display:none"><p><font size="2">
+    The problem of filter design is considered for linear stochastic systems using distributed sensors. Each sensor unit, represented by a node in an an undirected and connected graph, collects some information about the state and communicates its own estimate with the neighbors. It is stipulated that this communication between sensor nodes is time-sampled randomly and the sampling process is assumed to be a Poisson counter. Our proposed filtering algorithm for each sensor node is a stochastic hybrid system: It comprises a continuous-time differential equation, and at random time instants when communication takes place, each sensor node updates its state estimate based on the information received by its neighbors. In this setting, we compute the expectation of the error covariance matrix for each unit which is governed by a matrix differential equation. To study the asymptotic behavior of these covariance matrices, we show that if the gain matrices are appropriately chosen and the mean sampling rate is large enough, then the error covariances practically converge to a constant matrix.
+</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Stability,Nonlinear Analysis,Lyapunov Functions" data-type="Journal" data-year="2022"><b>[J24] ISS and integral-ISS of switched systems with nonlinear supply functions</b><br/>
+     S. Liu,   A. Tanwani,   D. Liberzon<br/>
+     <i>Mathematics of Controls, Signals, and Systems</i>, 2022.<br/>
+     <a href="javascript:ExpandCollapse('absISSMCSS22')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://hal.science/hal-03140903v2"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1007/s00498-021-00306-x">Publisher's Link</a>&nbsp;&nbsp;
+     <a href="bibentries/2022_mcss.html"> BibTeX</a></p>
+<div class="mid" id="absISSMCSS22" style="display:none"><p><font size="2">
+    The problem of input-to-state stability (ISS), and its integral version (iISS), are considered for switched nonlinear systems with inputs, resets and possibly unstable subsystems. For the dissipation inequalities associated with the Lyapunov function of each subsystem, it is assumed that the supply functions, which characterize the decay rate and ISS/iISS gains of the subsystems, are nonlinear. The change in the value of Lyapunov functions at switching instants is described by a sum of growth and gain functions, which are also nonlinear. Using the notion of average dwell-time (ADT) to limit the number of switching instants on an interval, and the notion of average activation time (AAT) to limit the activation time for unstable systems, a formula relating ADT and AAT is derived to guarantee ISS/iISS of the switched system. Case studies of switched systems with saturating dynamics and switched bilinear systems are included for illustration of the results.
+</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Stability,Nonlinear Analysis" data-type="Journal" data-year="2022"><b>[J23] Instability of Dwell-Time Constrained Switched Nonlinear Systems</b><br/>
+     M. Della Rossa,   A. Tanwani<br/>
+     <i>Systems and Control Letters</i>, 2022.<br/>
+     <a href="javascript:ExpandCollapse('absInstabSCL22')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://hal.science/hal-03516769v1"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1016/j.sysconle.2022.105164">Publisher's Link</a>&nbsp;&nbsp;
+     <a href="bibentries/2022_scl.html"> BibTeX</a></p>
+<div class="mid" id="absInstabSCL22" style="display:none"><p><font size="2">
+    Analyzing the stability of switched nonlinear systems under dwell-time constraints, this article investigates different scenarios where all the subsystems have a common globally asymptotically stable (GAS) equilibrium, but for the switched system, the equilibrium is not uniformly GAS for arbitrarily values of dwell-time. We motivate our study with the help of examples showing that, if near the origin all the vector fields decay at a rate slower than the linear vector fields, then the trajectories are ultimately bounded for large enough dwell-time. On the other hand, if away from the origin, the vector fields do not grow as fast as the linear vector fields, then we can only guarantee local asymptotic stability for large enough dwell-times, with region of attraction depending on the dwell-time itself. We formalize our observations for homogeneous systems, and show that, even if origin is not uniformly GAS with dwell-time switching for nonlinear systems, it still holds that the trajectories starting from a bounded set converge to a neighborhood of the origin if the dwell-time is large enough.
+</font></p></div>
+<p data-topic="Nonsmooth Systems,Optimization" data-type="Journal" data-year="2022"><b>[J22] Convergence of Proximal Solutions for Evolution Inclusions with Time-dependent Maximal Monotone Operators</b><br/>
+     M.K. Camlibel,   L. Iannelli,   A. Tanwani<br/>
+     <i>Mathematical Programming</i>, Ser. A, 2022.<br/>
+     <a href="javascript:ExpandCollapse('absConvProxMP22')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://hal.science/hal-02144478v2"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1007/s10107-021-01666-7">Publisher's Link</a>&nbsp;&nbsp;
+     <a href="bibentries/2022_mprog.html"> BibTeX</a></p>
+<div class="mid" id="absConvProxMP22" style="display:none"><p><font size="2">
+    This article studies the solutions of time-dependent differential inclusions which is motivated by their utility in the modeling of certain physical systems. The differential inclusion is described by a time-dependent set-valued mapping having the property that, for a given time instant, the set-valued mapping describes a maximal monotone operator. By successive application of a proximal operator, we construct a sequence of functions parameterized by the sampling time that corresponds to the discretization of the continuous-time system. Under certain mild assumptions on the regularity with respect to the time argument, and using appropriate tools from functional and variational analysis, this sequence is then shown to converge to the unique solution of the original differential inclusion. The result is applied to develop conditions for well-posedness of differential equations interconnected with nonsmooth time-dependent complementarity relations, using passivity of underlying dynamics (equivalently expressed in terms of linear matrix inequalities).
+</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Nonsmooth Systems,Nonlinear Analysis,Lyapunov Functions,Interconnections" data-type="Journal" data-year="2022"><b>[J21] Nonpathological ISS-Lyapunov Functions for Interconnected Differential Inclusions</b><br/>
+     M. Della Rossa,   A. Tanwani,   L. Zaccarian<br/>
+     <i>IEEE Transactions on Automatic Control</i>, 2022.<br/>
+     <a href="javascript:ExpandCollapse('absNonpathTAC22')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://hal.science/hal-03381336v1"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1109/TAC.2021.3115437">Publisher's Link</a> &nbsp;&nbsp;
+     <a href="bibentries/2022_tacb.html"> BibTeX</a></p>
+<div class="mid" id="absNonpathTAC22" style="display:none"><p><font size="2">
+    This article concerns robustness analysis for interconnections of two dynamical systems (described by upper semicontinuous differential inclusions) using a generalized notion of derivatives associated with locally Lipschitz Lyapunov functions obtained from a finite family of differentiable functions. We first provide sufficient conditions for input-to-state stability (ISS) for differential inclusions, using a class of non-smooth (but locally Lipschitz) candidate Lyapunov functions and the concept of Lie generalized derivative. In general our conditions are less conservative than the more common Clarke derivative based conditions. We apply our result to state-dependent switched systems, and to the interconnection of two differential inclusions. As an example, we propose an observer-based controller for certain nonlinear two-mode state-dependent switched systems.
+</font></p></div>
+<p data-topic="Nonsmooth Systems,Lyapunov Functions,Nonlinear Analysis,Optimization" data-type="Journal" data-year="2022"><b>[J20] Cone-Copositive Lyapunov Functions for Complementarity Systems: Converse Result and Polynomial Approximation</b><br/>
+     M. Souaiby,   A. Tanwani,   D. Henrion<br/>
+     <i>IEEE Transactions on Automatic Control</i>, 2022.<br/>
+     <a href="javascript:ExpandCollapse('absCoposTAC22')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://hal.science/hal-02565283v2"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1109/TAC.2021.3061557">Publisher's Link</a> &nbsp;&nbsp;
+     <a href="bibentries/2022_taca.html"> BibTeX</a></p>
+<div class="mid" id="absCoposTAC22" style="display:none"><p><font size="2">
+    This article establishes the existence of a class of Lyapunov functions for analyzing the stability of a class of state-constrained systems, and it describes algorithms for their numerical computation. The system model consists of a differential equation coupled with a set-valued relation which introduces discontinuities in the vector field at the boundaries of the constraint set. In particular, the set-valued relation is described by the subdifferential of the indicator function of a closed convex cone, which results in a cone-complementarity system. The question of analyzing stability of such systems is addressed by constructing cone-copositive Lyapunov functions. As a first analytical result, we show that exponentially stable complementarity systems always admit a continuously differentiable cone-copositive Lyapunov function. Putting some more structure on the system vector field, such as homogeneity, we can show that the aforementioned functions can be approximated by a rational function of cone-copositive homogeneous polynomials. This later class of functions is seen to be particularly amenable for numerical computation as we provide two classes of algorithms for precisely that purpose. These algorithms consist of a hierarchy of either linear or semidefinite optimization problems for computing the desired copositive Lyapunov function. Some examples are given to illustrate our approach.
+</font></p></div>
+<p data-topic="Quantization,Nonlinear Analysis,Stability" data-type="Journal" data-year="2022"><b>[J19] Nearest Neighbor Control for Practical Stabilization of Passive Nonlinear Systems</b><br/>
+     M. Z. Almuzakki,   B. Jayawardhana,   A. Tanwani<br/>
+     <i>Automatica</i>, 2022.<br/>
+     <a href="javascript:ExpandCollapse('absNNCAut22')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://hal.science/hal-02565267v2"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1016/j.automatica.2022.110278">Publisher's Link</a> &nbsp;&nbsp;
+     <a href="bibentries/2022_aut.html"> BibTeX</a></p>
+<div class="mid" id="absNNCAut22" style="display:none"><p><font size="2">
+    This paper studies static output feedback stabilization of continuous-time (incrementally) passive nonlinear systems where the control actions can only be chosen from a discrete (and possibly finite) set of points. For this purpose, we are working under the assumption that the system under consideration is large-time norm observable and the convex hull of the realizable control actions contains the target constant input (which corresponds to the equilibrium point) in its interior. We propose a nearest-neighbor based static feedback mapping from the output space to the finite set of control actions, that is able to practically stabilize the closed-loop systems. Consequently, we show that for such systems with <i>m</i>-dimensional input space, it is sufficient to have <i>m+1</i> elements (other than the zero element for general passive systems or the target constant input for incrementally passive systems). Furthermore, we present constructive algorithms to design such <i>m+1</i> input points that satisfy the conditions for practical stability using our proposed nearest-neighbor control.
+</font></p></div>
+<p data-topic="Nonsmooth Systems,Interconnections,Optimization" data-type="Conference" data-year="2022"><b>[C37] Analyzing Feedback Interconnections of Maximal Monotone Systems Using Dissipativity Approach</b><br/>
+     A. Tanwani,   B. Brogliato<br/>
+     <i>International Symposium on Mathematical Theory of Networks and Systems (MTNS)</i>, 2022.<br/>
+     <a href="javascript:ExpandCollapse('absIntMMmtns22')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://hal.science/hal-04489402"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1016/j.ifacol.2022.11.045">Publisher's Link</a>&nbsp;&nbsp;
+     <a href="bibentries/2022_mtns.html"> BibTeX</a></p>
+<div class="mid" id="absIntMMmtns22" style="display:none"><p><font size="2">
+    We consider interconnections of two dynamical systems in feedback configuration. The dynamics of the individual systems are modeled by a differential inclusion, and the corresponding set-valued mapping is (anti-) maximal monotone with respect to the state of the system for each fixed value of the external signal that defines the interconnection. We provide conditions on these mappings under which the dynamics of the resulting interconnected system are (anti-) maximal monotone. An interpretation of our main result is provided: firstly, by considering dynamical systems defined by the gradient of a saddle function, and secondly, by considering an interconnection of incrementally passive systems. In the same spirit, when we associate more structure to the individual systems by considering linear complementarity systems, we allow for more flexibility in describing the interconnections and derive more specific sufficient conditions in terms of system matrices that result in the overall system being described by (anti-) maximal monotone operator.
+</font></p></div>
+<p data-topic="Filtering,Stability,Random Sampling" data-type="Conference" data-year="2022"><b>[C36] Approximation of Nonlinear Filters for Continuous-Time Markov Chains under Randomly-Sampled Observations</b><br/>
+     O. Yufereva,   A. Tanwani<br/>
+     <i>IEEE Conference on Decision and Control(CDC)</i>, 2022.<br/>
+     <a href="javascript:ExpandCollapse('absApproxCDC22')">Abstract</a>&nbsp;&nbsp;
+     <a href="https://hal.science/hal-04161754v1"> Preprint</a>&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1109/CDC51059.2022.9992749">Publisher's Link</a>&nbsp;&nbsp;
+     <a href="bibentries/2022_cdc.html"> BibTeX</a></p>
+<div class="mid" id="absApproxCDC22" style="display:none"><p><font size="2">
+    For a continuous-time Markov chain with finite state space and an observation process with additive Gaussian noise, we consider the problem of designing optimal filters when the measurements of the observation process are available at randomly sampled time instants. We first define the optimal filter in this setting, and derive a recursive expression for it in the form of a continuous-discrete filter. Our main result is oriented at comparing the performance of the proposed filter with the continuous-time counterpart, that is, the classical Wonham filter obtained from continuous observation process. In particular, we show that by taking the sampling process to be a Poisson counter, and increasing the mean sampling rate, the expected value of the posterior conditional distribution of continuous-discrete filter converges to the posterior distribution of a purely continuous Wonham filter.
+</font></p></div>
+<h3><font color="B22222">2021:</font></h3>
+<p data-topic="Stability,Switched/Hybrid Systems,Nonlinear Analysis,Lyapunov Functions" data-type="Journal" data-year="2021"><b>[J18] Piecewise Structure of Lyapunov Functions and Densely Checked Decrease Conditions for Hybrid Systems</b><br/>
+     M. Della Rossa,   R. Goebel   A. Tanwani,   L. Zaccarian<br/>
+     <i>Mathematics of Controls, Signals, and Systems</i>, 2021.<br/>
+     <a href="javascript:ExpandCollapse('absDenseMCSS21')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-03034335v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1007/s00498-020-00273-9">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2021_mcss.html"> BibTeX</a></p>
+<div class="mid" id="absDenseMCSS21" style="display:none"><p><font size="2">
+    We propose a class of locally Lipschitz functions with piecewise structure for use as Lyapunov functions for hybrid dynamical systems. Subject to some regularity of the dynamics, we show that Lyapunov inequalities can be checked only on a dense set and thus we avoid checking them at points of nondifferentiability of the Lyapunov function. Connections to other classes of locally Lipschitz or piecewise regular functions are also discussed and applications to hybrid dynamical systems are included.
+</font></p></div>
+<p data-topic="Filtering,Stability,Networks,Random Sampling" data-type="Conference" data-year="2021"><b>[C35] Error Bounds for Locally Optimal Distributed Filters with Random Communication Graphs</b><br/>
+     A. Tanwani<br/>
+     <i>IEEE Conference on Decision and Control(CDC)</i>, 2021.<br/>
+     <a href="javascript:ExpandCollapse('absDistFiltCDC21')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-03476850v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1109/CDC45484.2021.9682851">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2021_cdca.html"> BibTeX</a></p>
+<div class="mid" id="absDistFiltCDC21" style="display:none"><p><font size="2">
+    We consider the problem of analyzing the performance of distributed filters for continuous-time linear stochastic systems under certain information constraints. We associate an undirected and connected graph with the measurements of the system, where the nodes have access to partial measurements in continuous time. Each node executes a locally optimally filter based on the available measurements. In addition, a node communicates its estimate to a neighbor at some randomly drawn discrete time instants, and these activation times of the graph edges are governed by independent Poisson counters. When a node gets some information from its neighbor, it resets its state using a convex combination of the available information. Consequently, each node implements a filtering algorithm in the form of a stochastic hybrid system. We derive bounds on expected value of error covariance for each node, and show that they converge to a common value for each node if the mean sampling rates for communication between nodes are large enough.
+</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Stability,Nonlinear Analysis,Lyapunov Functions,Networks" data-type="Conference" data-year="2021"><b>[C34] Lyapunov Functions for Singularly Perturbed Hybrid Systems with Frequent Jump Dynamics</b><br/>
+     A. Tanwani,   H. Shim<br/>
+     <i>IEEE Conference on Decision and Control(CDC)</i>, 2021.<br/>
+     <a href="javascript:ExpandCollapse('absLyapSingCDC21')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-03476840v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1109/CDC45484.2021.9682912">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2021_cdcb.html"> BibTeX</a></p>
+<div class="mid" id="absLyapSingCDC21" style="display:none"><p><font size="2">
+    This article considers the stability analysis for a class of hybrid systems with the focus being on the frequently occurring jump dynamics. The system class is modelled as a singularly perturbed hybrid system where the singular perturbation parameter governs the frequency of jumps. Consequently, this results in a quasi steady-state system modeled by a differential equation without any jumps, and the boundary-layer system described by purely discrete dynamics. By imposing appropriate assumptions on the quasi steady-state system and the boundary-layer system, we derive results showing practical convergence to a compact attractor when the jumps occur frequently often. Our system class is motivated by the control design problem in a network of second-order continuous-time coupled oscillators, where each agent communicates the information about its position to the neighbors at discrete times. As a corollary to our main result, we show that if the information exchange between the agents and their neighbors is frequent enough, then the oscillators achieve practical consensus.
+</font></p></div>
+<p data-topic="Filtering,Random Sampling,Networks" data-type="Conference" data-year="2021"><b>[C33] Poster: Filtering over Networks with Random Communication</b><br/>
+     A. Tanwani<br/>
+     <i>ACM Conference on Hybrid Systems: Computation and Control</i>, 2021.<br/>
+     <a href="javascript:ExpandCollapse('absDistFiltHSCC21')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-03217508v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1145/3447928.3457212">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2021_hscc.html"> BibTeX</a></p>
+<div class="mid" id="absDistFiltHSCC21" style="display:none"><p><font size="2">
+    We consider analysis and design of distributed filters for continuoustime stochastic systems, where the partial information about the states is measured by a distributed set of sensor units. These units are represented by nodes in an undirected and connected graph, whose edges represent the communication links between sensor units. It is stipulated that the communication between sensor nodes is time-sampled randomly and the sampling process is described by a Poisson counter. Our proposed filtering algorithm for each sensor node is a stochastic hybrid system: It comprises a continuous-time differential equation, and at random time instants when communication takes place, each sensor node updates its state estimate based on the information received by its neighbors. For this setup, we compute the expectation of the error covariance matrix for each node which is governed by a matrix differential equation, and relate its convergence with the mean sampling rate.
+</font></p></div>
+<p data-topic="Optimization,Nonsmooth Systems" data-type="Conference" data-year="2020"><b>[C32] A Discretization Algorithm for Time-Varying Composite Gradient Flow Dynamics</b><br/>
+     K. Camlibel,   A. Tanwani<br/>
+     <i>International Symposium on Mathematical Theory of Networks and Systems (MTNS)</i>, 2020.<br/>
+     <a href="javascript:ExpandCollapse('absProxMTNS20')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-03277322v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1016/j.ifacol.2021.06.116">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2021_mtns.html"> BibTeX</a></p>
+<div class="mid" id="absProxMTNS20" style="display:none"><p><font size="2">
+    The problem of minimizing the sum, or composition, of two objective functions is a frequent sight in the field of optimization. In this article, we are interested in studying relations between the discrete-time gradient descent algorithms used for optimization of such functions and their corresponding gradient flow dynamics, when one of the functions is in particular time-dependent. It is seen that the subgradient of the underlying convex function results in differential inclusions with time-varying maximal monotone operator. We describe an algorithm for discretization of such systems which is suitable for numerical implementation. Using appropriate tools from convex and functional analysis, we study the convergence with respect to the size of the sampling interval. As an application, we study how the discretization algorithm relates to gradient descent algorithms used for constrained optimization.
+</font></p></div>
+
+<h3><font color="B22222">2020:</font></h3>
+<p data-topic="Nonsmooth Systems,Nonlinear Analysis,Stability" data-type="Journal" data-year="2020"><b>[J17] Dynamical Systems Coupled with Monotone Set-Valued Operators: Formalisms, Applications, Well-posedness, and Stability</b><br/>
+     B. Brogliato,   A. Tanwani<br/>
+     <i>SIAM Review</i>, 2020.<br/>
+     <a href="javascript:ExpandCollapse('absSirev20')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-02379498v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1137/18M1234795">Publisher's Link</a> &nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2020_sirev.html"> BibTeX</a></p>
+<div class="mid" id="absSirev20" style="display:none"><p><font size="2">
+    This survey article addresses the class of continuous-time systems where a system modeled by ordinary differential equations (ODEs) is coupled with a static and time-varying set-valued operator in the feedback. Interconnections of this form model certain classes of nonsmooth systems including sweeping processes, differential inclusions with maximal monotone right-hand side, complementarity systems, differential and evolution variational inequalities, projected dynamical systems, some piecewise linear switching systems. Such mathematical models have seen applications in electrical circuits, mechanical systems, hysteresis effects, and many more. When we impose a passivity assumption on the open-loop system, and regard the set-valued operator in the feedback as maximally monotone, we obtain a set-valued Lur'e dynamical system. In this article we review the mathematical formalisms, their relationships, main application fields, well-posedness (existence, uniqueness, continuous dependence of solutions), and stability of equilibria. An exhaustive bibliography is provided.
+</font></p></div>
+<p data-topic="Filtering,Random Sampling,Stability" data-type="Journal" data-year="2020"><b>[J16] Error Covariance Bounds for Suboptimal Filters with Lipschitzian Drift and Poisson-sampled Measurements</b><br/>
+     A. Tanwani,   O. Yufereva<br/>
+     <i>Automatica</i>, 2020.<br/>
+     <a href="javascript:ExpandCollapse('absAutError20')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-02956980v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1016/j.automatica.2020.109280">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2020_aut.html"> BibTeX</a></p>
+<div class="mid" id="absAutError20" style="display:none"><p><font size="2">
+    We design suboptimal filters for a class of continuous-time nonlinear stochastic systems when the measurements are assumed to arrive randomly at discrete times under a Poisson distribution. The proposed filter is a dynamical system with a differential equation and a reset map which updates the estimate whenever a new measurement is received. We analyze the performance of the proposed filter by computing the expected value of the error covariance which is described by a differential equation. We study throughly the conditions under which the error covariance remains bounded, which depend on the system data and the mean sampling rate associated with the measurement process. We also study the particular cases when the error covariance is seen to decrease with the increase in the sampling rate. For the particular case of linear filters, we can also compare the error covariance bounds with the case when the measurements are continuously available.
+</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Random Sampling,Optimal Control,Differential-Algebraic Equations" data-type="Journal" data-year="2020"><b>[J15] Feedback Nash Equilibrium for Randomly Switching Differential-Algebraic Games</b><br/>
+     A. Tanwani,   Q. Zhu<br/>
+     <i>IEEE Transactions on Automatic Control</i>, 2020.<br/>
+     <a href="javascript:ExpandCollapse('absGamesDAEs20')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-02394391v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1109/TAC.2019.2943577">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2020_tac.html"> BibTeX</a></p>
+<div class="mid" id="absGamesDAEs20" style="display:none"><p><font size="2">
+    As a subclass of stochastic differential games with algebraic constraints, this article studies dynamic noncooper-ative games where the dynamics are described by Markov jump differential-algebraic equations (DAEs). Theoretical tools, which require computing the extended generator and deriving Hamilton-Jacobi-Bellman (HJB) equation for Markov jump DAEs, are developed. These fundamental results lead to pure feedback optimal strategies to compute the Nash equilibrium in noncooperative setting. In case of quadratic cost and linear dynamics , these strategies are obtained by solving coupled Riccati-like differential equations. Under an appropriate stabilizability assumption on system dynamics, these differential equations reduce to coupled algebraic Riccati equations when the cost functionals are considered over infinite-horizon. As a first case-study, the application of our results is studied in the context of an economic system where different suppliers aim to maximize their profits subject to the market demands and fluctuations in operating conditions. The second case-study refers to the conventional problem of robust control for randomly switching linear DAEs, which can be formulated as a two-player zero sum game and is solved using the results developed in this paper.
+</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Nonsmooth Systems,Nonlinear Analysis,Lyapunov Functions,Stability" data-type="Journal" data-year="2020"><b>[J14] Max-Min Lyapunov Functions for Switched Systems and Related Differential Inclusions</b><br/>
+     M. Della Rossa,  A. Tanwani,   L. Zaccarian<br/>
+     <i>Automatica</i>, 2020.<br/>
+     <a href="javascript:ExpandCollapse('absMaxMinAut20')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-02886685v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1016/j.automatica.2020.109123">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2020_auta.html"> BibTeX</a></p>
+<div class="mid" id="absMaxMinAut20" style="display:none"><p><font size="2">
+    Starting from a finite family of continuously differentiable positive definite functions, we study conditions under which a function obtained by max-min combinations is a Lyapunov function, establishing stability for two kinds of nonlinear dynamical systems: a) Differential inclusions where the set-valued right-hand-side comprises the convex hull of a finite number of vector fields, and b) Autonomous switched systems with a state-dependent switching signal. We investigate generalized notions of directional derivatives for these max-min functions, and use them in deriving stability conditions with various degrees of conservatism, where more conservative conditions are numerically more tractable. The proposed constructions also provide nonconvex Lyapunov functions, which are shown to be useful for systems with state-dependent switching that do not admit a convex Lyapunov function. Several examples are included to illustrate the results.
+</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Lyapunov Functions,Nonlinear Analysis,Stability" data-type="Conference" data-year="2020"><b>[C31] Average Dwell-Time Bounds for ISS and Integral ISS of Switched Systems using Lyapunov Functions</b><br/>
+     S. Liu,   A. Tanwani,   D. Liberzon<br/>
+     <i>IEEE Conference on Decision and Control(CDC)</i>, 2020.<br/>
+     <a href="javascript:ExpandCollapse('absAdtISSCDC21')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-03070712v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1109/CDC42340.2020.9304445">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2020_cdc.html"> BibTeX</a></p>
+<div class="mid" id="absAdtISSCDC21" style="display:none"><p><font size="2">
+    The problem of input-to-state stability (ISS), and its integral version (iISS), is considered for switched systems with inputs and resets. The individual subsystems are assumed to be ISS (resp. iISS) with nonlinear decay rates in dissipation inequalities associated with the Lyapunov function of each subsystem. The change in the value of Lyapunov functions at switching instants is described by a nonlinear growth function. A generalized lower bound is computed for average dwell-time (ADT) to guarantee ISS/iISS of the switched system. In particular, an explicit formula of ADT lower bound is given for switched bilinear systems with zero-input-stable subsystems.
+</font></p></div>
+<p data-topic="Lyapunov Functions,Optimization,Nonsmooth Systems" data-type="Conference" data-year="2020"><b>[C30] Computation of Lyapunov Functions under State Constraints using Semidefinite Programming Hierarchies</b><br/>
+     M. Souaiby,   A. Tanwani,   D. Henrion<br/>
+     <i>IFAC World Congress</i>, 2020.<br/>
+     <a href="javascript:ExpandCollapse('absLyapSOSIFAC20')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-02937714v2"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1016/j.ifacol.2020.12.1746">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2020_ifac.html"> BibTeX</a></p>
+<div class="mid" id="absLyapSOSIFAC20" style="display:none"><p><font size="2">
+    We provide algorithms for computing a Lyapunov function for a class of systems where the state trajectories are constrained to evolve within a closed convex set. The dynamical systems that we consider comprise a differential equation which ensures continuous evolution within the domain, and a normal cone inclusion which ensures that the state trajectory remains within a prespecified set at all times. Finding a Lyapunov function for such a system boils down to finding a function which satisfies certain inequalities on the admissible set of state constraints. It is well-known that this problem, despite being convex, is computationally difficult. For conic constraints, we provide a discretization algorithm based on simplicial partitioning of a sim-plex, so that the search of desired function is addressed by constructing a hierarchy (associated with the diameter of the cells in the partition) of linear programs. Our second algorithm is tailored to semi-algebraic sets, where a hierarchy of semidefinite programs is constructed to compute Lyapunov functions as a sum-of-squares polynomial.
+</font></p></div>
+<h3><font color="B22222">2019:</font></h3>
+<p data-topic="Switched/Hybrid Systems,Interconnections,Nonlinear Analysis,Lyapunov Functions,Stability" data-type="Journal" data-year="2019"><b>[J13] ISS Lyapunov Functions for Cascade Switched Systems and Sampled-Data Control</b><br/>
+     G.-X. Zhang,   A. Tanwani<br/>
+     <i>Automatica</i>, 2019.<br/>
+     <a href="javascript:ExpandCollapse('absSwSysCasc19')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-02144470v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1016/j.automatica.2019.03.028">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2019_auta.html"> BibTeX</a></p>
+<div class="mid" id="absSwSysCasc19" style="display:none"><p><font size="2">
+    Input-to-state stability (ISS) of switched systems is studied where the individual subsystems are connected in a serial cascade configuration, and the states are allowed to reset at switching times. An ISS Lyapunov function is associated to each of the two blocks connected in cascade, and these functions are used as building blocks for constructing ISS Lyapunov function for the interconnected system. The derivative of individual Lyapunov functions may be bounded by nonlinear decay functions, and the growth in the value of Lyapunov function at switching times may also be a nonlinear function of the value of other Lyapunov functions. The stability of overall hybrid system is analyzed by constructing a newly constructed ISS-Lyapunov function and deriving lower bounds on the average dwell-time. The particular case of linear subsystems and quadratic Lyapunov functions is also studied. The tools are also used for studying the observer-based feedback stabilization of a nonlinear switched system with event-based sampling of the output and control inputs. We design dynamic sampling algorithms based on the proposed Lyapunov functions and analyze the stability of the resulting closed-loop system.
+</font></p></div>
+
+<p data-topic="Switched/Hybrid Systems,Differential-Algebraic Equations,Observers" data-type="Journal" data-year="2019"><b>[J12] Detectability and Observer Design for Switched Differential–Algebraic Equations</b><br/>
+     A. Tanwani,   S. Trenn<br/>
+     <i>Automatica</i>, 2019.<br/>
+     <a href="javascript:ExpandCollapse('absObsSwDAEs19')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-01933110v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1016/j.automatica.2018.10.043">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2019_autb.html"> BibTeX</a></p>
+<div class="mid" id="absObsSwDAEs19" style="display:none"><p><font size="2">
+    This paper studies detectability for switched linear differential–algebraic equations (DAEs) and its application to the synthesis of observers, which generate asymptotically converging state estimates. Equating detectability to asymptotic stability of zero-output-constrained state trajectories, and building on our work on interval-wise observability, we propose the notion of interval-wise detectability: If the output of the system is constrained to be identically zero over an interval, then the norm of the corresponding state trajectories scales down by a certain factor at the end of that interval. Conditions are provided under which the interval-wise detectability leads to asymptotic stability of zero-output-constrained state trajectories. An application is demonstrated in designing state estimators. Decomposing the state into observable and unobservable components, we show that if the observable component of the system is reset appropriately and persistently, then the estimation error converges to zero asymptotically under the interval-wise detectability assumption.
+</font></p></div>
+
+<p data-topic="Random Sampling,Optimal Control" data-type="Conference" data-year="2019"><b>[C29] Performance Bounds for Stochastic Receding Horizon Control with Randomly Sampled Measurements</b><br/>
+     A. Tanwani,   D. Chatterjee   L. Grune<br/>
+     <i>IEEE Conference on Decision and Control (CDC)</i>, 2019.<br/>
+     <a href="javascript:ExpandCollapse('absMPCRand19')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-04866029v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1109/CDC40024.2019.9029947">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2019_cdca.html"> BibTeX</a></p>
+<div class="mid" id="absMPCRand19" style="display:none"><p><font size="2">
+    This article considers the problem of analyzing the performance of model predictive controllers in minimizing infinite-horizon cost functionals associated with stochastic dynamical systems when the measurements received by the controller are randomly sampled in time. In contrast to the standard model predictive control algorithms which rely on availability of the state measurements at all times, we compute control policies which minimize cost functionals over a (finite) rolling-horizon conditioned upon the information that arrives at random time instants; although a hard upper bound equal to the length of the optimization horizon is imposed on consecutive sampling instants. Sufficient conditions are provided on the system dynamics, the cost functionals, and the statistics of the sampling process, such that the proposed policies result in computable upper bounds on the infinite-horizon average cost. The case of linear time-varying system with quadratic cost functionals is studied for the illustration of our results.
+</font></p></div>
+
+<p data-topic="Switched/Hybrid Systems,Nonsmooth Systems,Nonlinear Analysis,Lyapunov Functions,Stability" data-type="Conference" data-year="2019"><b>[C28] Almost Everywhere Conditions for Hybrid Lipschitz Lyapunov Functions</b><br/>
+     M. Della Rossa,   R. Goebel,   A. Tanwani,   L. Zaccarian<br/>
+     <i>IEEE Conference on Decision and Control (CDC)</i>, 2019.<br/>
+     <a href="javascript:ExpandCollapse('absDenseHybCDC19')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-02417585v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1109/CDC40024.2019.9029378">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2019_cdcb.html"> BibTeX</a></p>
+<div class="mid" id="absDenseHybCDC19" style="display:none"><p><font size="2">
+    We introduce a class of locally Lipschitz continuous functions to establish stability of hybrid dynamical systems. Under certain regularity assumptions on system dynamics, we provide sufficient conditions for asymptotic stability on the candidate Lyapunov function. In contrast to the existing literature, these conditions need to be checked only on a dense set using the conventional gradient of certain functions, without the necessity of relying on Clarke's generalized gradient. We discuss the relevance of the stated assumptions with the help of some counterexamples, underlining the subtlety of the proposed relaxation. As an application of our result, we study the stability of a classical example from the reset control literature: the Clegg integrator model, with convex and nonconvex Lyapunov functions, which are almost everywhere differentiable.
+</font></p></div>
+
+<p data-topic="Switched/Hybrid Systems,Nonlinear Analysis,Nonsmooth Systems,Lyapunov Functions,Stability" data-type="Conference" data-year="2019"><b>[C27] Smooth Approximation of Patchy Lyapunov Functions for Switched Systems</b><br/>
+     M. Della Rossa,   A. Tanwani,   L. Zaccarian<br/>
+     <i>IFAC Symposium on Nonlinear Control Systems (NolCoS)</i>, 2019.<br/>
+     <a href="javascript:ExpandCollapse('absPatchyNolcos19')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-02189280v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1016/j.ifacol.2019.11.807">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2019_nolcosb.html"> BibTeX</a></p>
+<div class="mid" id="absPatchyNolcos19" style="display:none"><p><font size="2">
+    Starting with a locally Lipschitz (patchy) Lyapunov function for a given switched system, we provide the construction of a continuously differentiable (smooth) Lyapunov function, obtained via a convolution-based approach. This smooth function approximates the patchy function when working with Clarke's generalized gradient. The convergence rate inherited by the smooth approximations, as a by-product of our construction, is useful in establishing the robustness with respect to additive inputs. With the help of an example, we address the limitations of our approach for other notions of directional derivatives, which generally provide less conservative conditions for stability of switched systems than the conditions based on Clarke's generalized gradient.
+</font></p></div>
+
+<p data-topic="Stability,Nonlinear Analysis,Quantization" data-type="Conference" data-year="2019"><b>[C26] Practical Stabilization of Passive Nonlinear Systems with Limited Control</b><br/>
+     B. Jayawardhana,   M.-Z. Almuzakki,   A. Tanwani<br/>
+     <i>IFAC Symposium on Nonlinear Control Systems (NolCoS)</i>, 2019.<br/>
+     <a href="javascript:ExpandCollapse('absNNCNolcos19')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-02394450v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1016/j.ifacol.2019.12.004">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2019_nolcosa.html"> BibTeX</a></p>
+<div class="mid" id="absNNCNolcos19" style="display:none"><p><font size="2">
+    This article addresses output feedback stabilization of continuous-time nonlinear systems by choosing control actions from a finite set. Working under the assumption that the system under consideration is passive and large-time norm observable, we propose a static feedback mapping, from the output space to the finite set of control actions, which is shown to be practically stabilizing if the convex hull of certain control actions (in the chosen finite set) contains the origin in its interior. Consequently, to construct this stabilizing feedback, it suffices to have, in addition to a zero symbol, another <i>m + 1</i> elements in the control set which form an <i>m</i>-simplex in Euclidean space of dimension <i>m</i> (the input, and output space).
+</font></p></div>
+
+<h3><font color="B22222">2018:</font></h3>
+<p data-topic="Nonsmooth Systems" data-type="Journal" data-year="2018"><b>[J11] Well-posedness and output regulation for implicit time-varying evolution variational inequalities</b><br/>
+     A. Tanwani,   B. Brogliato,   C. Prieur<br/>
+     <i>SIAM J. Control and Optimization</i>, 2018<br/>
+     <a href="javascript:ExpandCollapse('absOutRegViJnl')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-01360325v2"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1137/16M1083657">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2018_sicon.html"> BibTeX</a></p>
+<div class="mid" id="absOutRegViJnl" style="display:none"><p><font size="2">
+    A class of evolution variational inequalities (EVIs), which comprises ordinary differential equations (ODEs) coupled with variational inequalities (VIs) associated with time-varying set-valued mappings, is proposed in this paper. We first study the conditions for existence and uniqueness of solutions. The central idea behind the proof is to rewrite the system dynamics as a differential inclusion which can be decomposed into a single-valued Lipschitz map, and a time-dependent maximal monotone operator. Regularity assumptions on the set-valued mapping determine the regularity of the resulting solutions. Complementarity systems with time-dependence are studied as a particular case. We then use this result to study the problem of designing state feedback control laws for output regulation in systems described by EVIs. The derivation of control laws for output regulation is based on the use of internal model principle, and two cases are treated: First, a static feedback control law is derived when full state feedback is available; In the second case, only the error to be regulated is assumed to be available for measurement and a dynamic compensator is designed. As applications, we demonstrate how control input resulting from the solution of a variational inequality results in regulating the output of the system while maintaining polyhedral state constraints. Another application is seen in designing control inputs for regulation in power converters.</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Differential-Algebraic Equations,Random Sampling,Optimal Control" data-type="Conference" data-year="2018"><b>[C25] Feedback Nash Equilibrium for Markov Jump Games under Differential-Algebraic Constraints with Application to Robust Control</b><br/>
+     A. Tanwani,   Q. Zhu<br/>
+     <i>IEEE Conference on Decision and Control</i>, 2018<br/>
+     <a href="javascript:ExpandCollapse('absGamesDAEsConf')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-01966137v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1109/CDC.2018.8619628">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2018_cdca.html"> BibTeX</a></p>
+<div class="mid" id="absGamesDAEsConf" style="display:none"><p><font size="2">
+As a subclass of stochastic differential games with algebraic constraints, this article studies dynamic noncooperative games where the constraints are described by jump Markov differential-algebraic equations (DAEs). Theoretical tools, which require computing the infinitesimal generator and deriving Hamiton-Jacobi-Bellman equation for Markov jump DAEs, are developed. These fundamental results lead to pure feedback optimal strategies to compute the Nash equilibrium in noncooperative setting. In case of quadratic cost and linear dynamics, these strategies are obtained by solving coupled Riccati differential equations. The problem of robust control can be formulated as a two-player zero sum game and is solved by applying the results developed in this paper.</font></p></div>
+
+<p data-topic="Switched/Hybrid Systems,Observers" data-type="Conference" data-year="2018"><b>[C24] Observability of Discrete-Time Linear Systems with Communication Protocols and Dropouts</b><br/>
+     A. Tanwani,   R. Jungers,   W.P.M.H. Heemels<br/>
+     <i>IEEE Conference on Decision and Control</i>, 2018<br/>
+     <a href="javascript:ExpandCollapse('absObsNetsCDC18')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-01951815v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1109/CDC.2018.8619308">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2018_cdcb.html"> BibTeX</a></p>
+<div class="mid" id="absObsNetsCDC18" style="display:none"><p><font size="2">
+    We consider the problem of analyzing observability in discrete-time linear systems when the sensors, deployed in a distributed manner, may not communicate to an observer at once, and a protocol determines the communication pattern among different sensors. We use the formalism of automata to model the sequence of measurements determined by a protocol and show that the question of observability is decidable for the resulting system. We give upper bounds on the number of measurements required for deciding observability. In addition, we consider the effects of dropouts, which may occur in communicating the measurements across the channel. Again using the formalism of automatons to model certain classes of dropouts combined with the protocol, it is shown that observability is decidable in finite time for measurements sent across a communication channel using a protocol, and subject to dropouts.</font></p></div>
+
+<p data-topic="Stability,Switched/Hybrid Systems,Nonlinear Analysis,Nonsmooth Systems,Lyapunov Functions" data-type="Conference" data-year="2018"><b>[C23] Max-Min Lyapunov Functions for Switching Differential Inclusions</b><br/>
+     M. Della Rossa   A. Tanwani, L. Zaccarian<br/>
+     <i>IEEE Conference on Decision and Control</i>, 2018<br/>
+     <a href="javascript:ExpandCollapse('absObsNetsCDC18')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-01951815v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1109/CDC.2018.8619308">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2018_cdcc.html"> BibTeX</a></p>
+<div class="mid" id="absObsNetsCDC18" style="display:none"><p><font size="2">
+    We consider the problem of analyzing observability in discrete-time linear systems when the sensors, deployed in a distributed manner, may not communicate to an observer at once, and a protocol determines the communication pattern among different sensors. We use the formalism of automata to model the sequence of measurements determined by a protocol and show that the question of observability is decidable for the resulting system. We give upper bounds on the number of measurements required for deciding observability. In addition, we consider the effects of dropouts, which may occur in communicating the measurements across the channel. Again using the formalism of automatons to model certain classes of dropouts combined with the protocol, it is shown that observability is decidable in finite time for measurements sent across a communication channel using a protocol, and subject to dropouts.</font></p></div>
+
+<p data-topic="Stability,Other" data-type="Conference" data-year="2018"><b>[C22] Local Input-to-State Stabilization of 1-D Linear Reaction-Diffusion Equation with Bounded Feedback</b><br/>
+     A. Tanwani,   S. Marx,   C. Prieur<br/>
+     <i>International Symposium on Mathematical Theory of Networks and Systems (MTNS)</i>, 2018<br/>
+     <a href="javascript:ExpandCollapse('absSat1Dmtns18')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-01785104v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://mtns2018.hkust.edu.hk/media/files/0204.pdf">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2018_mtns.html"> BibTeX</a></p>
+<div class="mid" id="absSat1Dmtns18" style="display:none"><p><font size="2">
+    The problem of robust stabilization with bounded feedback control is considered for a scalar reaction-diffusion system with uncertainties in the dynamics. The maximum value of the control input acting on one of the boundary points has to respect a given bound at each time instant. It is shown that, if the initial condition and the disturbance satisfy the certain bounds (computed as a function of the bound imposed on the control input), then the proposed control respects the desired saturation level and renders the closed-loop system locally input-to-state stable, that is, the trajectories with certain bound on the initial condition converge to a ball parameterized by certain norm of the disturbance.</font></p></div>
+
+<p data-topic="Stability,Switched/Hybrid Systems,Nonlinear Analysis,Observers,Lyapunov Functions" data-type="Conference" data-year="2018"><b>[C21] Stabilization of Switched Nonlinear Systems with Dynamic Output Feedback and Event-based Sampling</b><br/>
+     G.-X. Zhang,   A. Tanwani<br/>
+     <i>American Control Conference</i>, 2018<br/>
+     <a href="javascript:ExpandCollapse('absObsNetsCDC18')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-01933129v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.23919/ACC.2018.8430800">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2018_acc.html"> BibTeX</a></p>
+<div class="mid" id="absObsNetsCDC18" style="display:none"><p><font size="2">
+    The paper considers the problem of sampled-data control for switched nonlinear systems with dynamic output feedback, where the sampling times for control inputs and output measurements are determined using event-based strategies. Our results are based on constructing a novel Lyapunov function for switched systems where the Lyapunov function for each subsystem is not required to have a linear decay (during flows) or linear growth (during jumps). Analysis based on this function results in a lower bound on the average dwell-time for stability of the switched system. Similar construction is then used to analyze the controlled switched system where each subsystem is stabilized by a dynamic output feedback controller where the measurements passed to the controller, and the control inputs sent to the plant, are both time-sampled with zero-order hold. With appropriate design of dynamic filters and event-based sampling algorithms, we can show that the overall closed-loop system with sampled measurements is globally asymptotically stable.</font></p></div>
+<h3><font color="B22222">2017:</font></h3>
+<p data-topic="Random Sampling,Stability,Nonlinear Analysis,Lyapunov Functions" data-type="Conference" data-year="2017"><b>[C20] Stabilization with Event-Driven Controllers over a Digital Communication Channel</b><br/>
+     A. Tanwani,   A. Teel<br/>
+     <i>56th IEEE Conf. on Decision and Control</i>, 2017.<br/>
+     <a href="javascript:ExpandCollapse('absEtHybCDC17')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://hal.science/hal-01962166v1"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="https://dx.doi.org/10.1109/CDC.2017.8264575">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2017_cdca.html"> BibTeX</a></p>
+<div class="mid" id="absEtHybCDC17" style="display:none"><p><font size="2">
+    We consider stabilization of nonlinear dynamical systems with hybrid feedback control laws when the communication between the plant and the controller is carried over a digital communication channel, where the information may be subjected to random uncertainties. Adopting the framework of stochastic hybrid systems, we model the randomness in transmissions occurring in the physical communication layer, and the transmission protocols. Stability analysis is carried out for two particular examples: a) Uniting local and global controllers when communicating the discrete variable to the actuator with random dropouts, and b) Event-triggered control algorithms when communicating the state value to the controller where the protocols choose a random time to transmit data after the occurrence of an event.
+</font></p></div>
+<p data-topic="Stability,Other" data-type="Conference" data-year="2017"><b>[C19] Stabilization of Boundary Controlled Hyperbolic PDEs via Lyapunov-Based Event Triggered Sampling and Quantization</b><br/>
+     N. Espitia,   A. Tanwani,   S. Tarbouriech<br/>
+     <i>56th IEEE Conf. on Decision and Control</i>, 2017.<br/>
+     <a href="javascript:ExpandCollapse('absEspiTanwCDC17')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="refs/EspiTanw17.pdf"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="">Publisher's Link</a> &nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2017_cdcb.html"> BibTeX</a></p>
+<div class="mid" id="absEspiTanwCDC17" style="display:none"><p><font size="2">
+    With the growing utility of hyperbolic systems in modeling physical and controlled systems, this paper considers the problem of stabilization of boundary controlled hyperbolic partial differential equations where the output measurements are communicated after being time-sampled and space-quantized. Static and dynamic controllers are designed, which establish stability in different norms with respect to measurement errors using Lyapunov-based techniques. For practical purposes, stability in the presence of event-based sampling and quantization errors is analyzed. The design of sampling algorithms ensures practical stability.
+</font></p></div>
+<p data-topic="Stability,Other" data-type="Other" data-year="2017"><b>[pJxx] Disturbance-to-State Stabilization and Quantized Control for Linear Hyperbolic Systems</b><br/>
+     A. Tanwani,   C. Prieur,   S. Tarbouriech<br/>
+     provisionally accepted in <i>IEEE Trans. Automat. Control</i> in Sep. 2017, but <u>never</u> resubmitted.<br/>
+     <a href="javascript:ExpandCollapse('absDSSHypJnl')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://arxiv.org/abs/1703.00302">arXiv Link</a></p>
+<div class="mid" id="absDSSHypJnl" style="display:none"><p><font size="2">
+    We consider a system of linear hyperbolic PDEs where the state at one of the boundary points is controlled using the measurements of another boundary point. Because of the disturbances in the measurement, the problem of designing dynamic controllers is considered so that the closed-loop system is robust with respect to measurement errors. Assuming that the disturbance is a locally essentially bounded measurable function of time, we derive a disturbance-to-state estimate which provides an upper bound on the maximum norm of the state (with respect to the spatial variable) at each time in terms of L-infinity-norm of the disturbance up to that time. The analysis is based on constructing a Lyapunov function for the closed-loop system, which leads to controller synthesis and the conditions on system dynamics required for stability. As an application of this stability notion, the problem of quantized control for hyperbolic PDEs is considered where the measurements sent to the controller are communicated using a quantizer of finite length. The presence of quantizer yields practical stability only, and the ultimate bounds on the norm of the state trajectory are also derived.</font></p></div>
+<p data-topic="Stability,Nonlinear Analysis,Other" data-type="Book Chapter" data-year="2017"><b>[Bc3] Asymptotic stabilization of some finite and infinite dimensional systems by means of dynamic event-triggered output feedbacks</b><br/>
+     C. Prieur,   A. Tanwani.<br/>
+     Chap. 8 in <i>Feedback Stabilization of Controlled Dynamical Systems (In honor of L. Praly)</i>, Lecture Notes in Control and Information Sciences, Volume 473, 2017.<br/>
+     <a href="http://www.springer.com/us/book/9783319512976">Publisher's link</a></p>
+<p data-topic="Switched/Hybrid Systems,Differential-Algebraic Equations,Observers" data-type="Journal" data-year="2017"><b>[J10] Determinability and state-estimation for switched differential-algebraic equations.</b><br/>
+     A. Tanwani,   S. Trenn<br/>
+     <i>Automatica</i>, 76:17-31, 2017.<br/>
+     <a href="javascript:ExpandCollapse('absObsSwDAEs')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://dx.doi.org/10.1016/j.automatica.2016.10.024">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2017_aut.html"> BibTeX</a></p>
+<div class="mid" id="absObsSwDAEs" style="display:none"><p><font size="2">
+    The problem of state reconstruction and estimation is considered for a class of switched dynamical systems whose subsystems
+    are modeled using linear differential-algebraic equations (DAEs). Since this system class imposes time-varying dynamic and static (in the form of algebraic constraints) relations on the evolution of state trajectories, an appropriate notion of observability is presented which accommodates these phenomena. Based on this notion, we first derive a formula for the reconstruction of the state of the system where we explicitly obtain an injective mapping from the output to the state. In practice, such a mapping may be difficult to realize numerically and hence a class of estimators is proposed which ensures that the state estimate converges asymptotically to the real state of the system.</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Observers,Differential-Algebraic Equations" data-type="Conference" data-year="2017"><b>[C18] Observer Design for Detectable Switched DAEs.</b><br/>
+     A. Tanwani,   S. Trenn<br/>
+     <i>IFAC World Congress</i>, 2017.<br/>
+     <a href="javascript:ExpandCollapse('absdetSwDAEsIFAC')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="refs/TanwTren17b.pdf"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="">Publisher's Link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2017_ifac.html"> BibTeX</a></p>
+<div class="mid" id="absdetSwDAEsIFAC" style="display:none"><p><font size="2">
+    This paper studies detectability for switched linear differential-algebraic equations (DAEs) and its application in synthesis of observers. Equating detectability to asymptotic stability of zero-output-constrained state trajectories, and building on our work on interval-wise observability, we propose the notion of interval-wise detectability: If the output of the system is constrained to be identically zero over an interval, then the norm of the corresponding state trajectories scales down by a certain factor over that interval. Conditions are provided under which the interval-wise detectability leads to asymptotic stability of zero-output-constrained state trajectories. An application is demonstrated in designing state estimators. Decomposing the state into observable and unobservable components, we show that if the observable component in the estimator is reset appropriately and persistently, then the estimation error converges to zero asymptotically under the interval-wise detectability assumption.
+</font></p></div>
+<h3><font color="B22222">2016:</font></h3>
+<p data-topic="Stability,Observers,Quantization" data-type="Journal" data-year="2016"><b>[J9] Observer-based feedback stabilization of linear systems with event-triggered sampling and dynamic quantization</b><br/>
+     A. Tanwani,   C. Prieur,  M. Fiacchini.<br/>
+     <i>Systems and Control Letters</i>, 94:46-56, 2016.<br/>
+     <a href="javascript:ExpandCollapse('absOutEvent')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://arxiv.org/abs/1602.00544">Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://dx.doi.org/10.1016/j.sysconle.2016.05.008">Publisher's link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2016_scl.html"> BibTeX</a></p>
+<div class="mid" id="absOutEvent" style="display:none"><p><font size="2">
+    We consider the problem of output feedback stabilization in linear systems when
+    the measured outputs and control inputs are subject to event-triggered sampling
+    and dynamic quantization. A new sampling algorithm is proposed for outputs which
+    does not lead to accumulation of sampling times and results in asymptotic stabilization
+    of the system. The approach for sampling is based on defining an event function
+    that compares the difference between the current output and the most recently
+    transmitted output sample not only with the current value of the output,
+    but also takes into account a certain number of previously transmitted
+    output samples. This allows us to reconstruct the state using an observer with
+    sample-and-hold measurements. The estimated states are used to generate a
+    control input, which is subjected to a different event-triggered sampling routine;
+    hence the sampling times of inputs and outputs are asynchronous.
+    Using Lyapunov-based approach, we prove the asymptotic stabilization of
+    the closed-loop system and show that there exists a minimum inter-sampling
+    time for control inputs and for outputs. To show that these sampling routines
+    are robust with respect to measurement errors, only the quantized (in space)
+    values of outputs and inputs are transmitted to the controller and the plant,
+    respectively. A dynamic quantizer is adopted for this purpose, and an algorithm
+    is proposed to update the range and the center of the quantizer that results in an
+    asymptotically stable closed-loop system.</font></p></div>
+<p data-topic="Observers,Nonlinear Analysis,Nonsmooth Systems" data-type="Journal" data-year="2016"><b>[J8] Observer design for frictionless and unilaterally constrained Lagrangian systems: A passivity-based approach</b><br/>
+     A. Tanwani,   B. Brogliato,  C. Prieur.<br/>
+     <i>IEEE Transactions on Automatic Control,</i> 61(9):2386-2401, 2016. DOI: 10.1109/TAC.2015.2492098<br/>
+     <a href="javascript:ExpandCollapse('absMechTac')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/obsMechTAC.pdf">Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://dx.doi.org/10.1109/TAC.2015.2492098">Publisher's link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="bibentries/2016_tac.html"> BibTeX</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="gallerytac.html">Animations</a></p>
+<div class="mid" id="absMechTac" style="display:none"><p><font size="2">
+    This paper addresses the problem of estimating the velocity variables, using the
+    position measurement as output, in nonlinear Lagrangian dynamical systems with
+    perfect unilateral constraints.
+    Using the class of bounded variation functions to model the velocity variables
+    (so that Zeno phenomenon is not ruled out), we represent the derivative of such
+    functions with the Lebesgue-Stieltjes measure, and use the framework of measure
+    differential inclusion (MDI) to describe the dynamics at velocity level which naturally
+    encodes the relations for prescribing the post-impact velocity.
+    Under the assumption that the velocity of the system is uniformly bounded,
+    an observer is designed which is also a measure differential inclusion.
+    It is proved that there exists a unique solution to the proposed observer and
+    that solution converges asymptotically to the actual velocity.</font></p></div>
+<p data-topic="Stability,Nonlinear Analysis,Other" data-type="Conference" data-year="2016"><b>[C17] Input-to-state stabilization in H^1-Norm for boundary controlled linear hyperbolic PDEs with application to quantized control</b><br/>
+     A. Tanwani,   C. Prieur,  S. Tarbouriech.<br/>
+     IEEE Conf. on Decision and Control, 2016.<br/>
+     <a href="javascript:ExpandCollapse('absIssHyp')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2016_cdcb.html"> BibTeX</a></p>
+<div class="mid" id="absIssHyp" style="display:none"><p><font size="2">
+    We consider a system of linear hyperbolic PDEs where the state at one of the boundary points is controlled using the measurements of another boundary point. For this system class, the problem of designing dynamic controllers for input-to-state stabilization in $\cH^1$-norm with respect to measurement errors is considered. The analysis is based on constructing a Lyapunov function for the closed-loop system which leads to controller synthesis and the conditions on system dynamics required for stability. As an application of this stability notion, the problem of quantized control for hyperbolic PDEs is considered where the measurements sent to the controller are communicated using a quantizer of finite length. The presence of quantizer yields practical stability only, and the ultimate bounds on the norm of the state trajectory are also derived.
+</font></p></div>
+<p data-topic="Nonsmooth Systems,Differential-Algebraic Equations" data-type="Conference" data-year="2016"><b>[C16] Differential-algebraic inclusions with maximal monotone operators</b><br/>
+     K. Camlibel,   L. Iannelli,   A. Tanwani,   S. Trenn.<br/>
+     IEEE Conf. on Decision and Control, 2016.<br/>
+     <a href="javascript:ExpandCollapse('absDAIconf')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="bibentries/2016_cdca.html"> BibTeX</a></p>
+<div class="mid" id="absDAIconf" style="display:none"><p><font size="2">
+    The term differential-algebraic inclusions (DAIs) not only describes the dynamical relations using set-valued mappings, but also includes the static algebraic inclusions, and this paper considers the problem of existence of solutions for a class of such dynamical systems.
+    The existence of solutions is proved using the tools from the theory of maximal monotone operators.
+    The class of solutions that we study in the paper have the property that, instead of the whole state, only $Px$ is absolutely continuous and unique.
+    This framework, in particular, is useful for studying passive differential-algebraic equations (DAEs) coupled with maximal monotone relations.
+    Certain class of irregular DAEs are also covered within the proposed general framework.
+    Applications from electrical circuits are included to provide a practical motivation.</font>
+     <a href="bibentries/2016_5cdc.html"> BibTeX</a></p></div>
+
+<h3><font color="B22222">2015:</font></h3>
+<p data-topic="Stability,Nonlinear Analysis,Nonsmooth Systems" data-type="Journal" data-year="2015"><b>[J7] Stability notions for a class of nonlinear systems with measure controls</b><br/>
+     A. Tanwani,   B. Brogliato,  C. Prieur.<br/>
+     <i>Mathematics of Controls, Signals and Systems</i>, vol. 27(2), pp. 245-275, 2015.<br/>
+     <a href="javascript:ExpandCollapse('absmcss')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/jnlMDE.pdf"> Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://dx.doi.org/10.1007/s00498-015-0140-7">Publisher's link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2015_mcss.html"> BibTeX</a></p>
+<div class="mid" id="absmcss" style="display:none"><p><font size="2">
+    We consider the problem of stability in a class of
+    differential equations which are driven by a differential measure associated with inputs of
+    locally bounded variation. After discussing some existing notions of solution for such systems,
+    we derive conditions on the system's vector fields for asymptotic stability under a specific
+    class of inputs. These conditions are based on the stability margin of the Lebesgue-integrable
+    and the measure-driven components of the system. In case the system is not asymptotically stable,
+    we derive weaker conditions such that the norm of the resulting trajectory is bounded by some
+    function of the total variation of the input, which generalizes the notion of integral
+    input-to-state stability in measure-driven systems.</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Observers" data-type="Journal" data-year="2015"><b>[J6] Comments on “Observability of switched linear systems: Characterization and observer design”</b><br/>
+     A. Tanwani,   H. Shim,  D. Liberzon.<br/>
+     <i>IEEE Transactions on Automatic Control</i>, vol. 60(12), pp. 3396-3400.<br/>
+     <a href="javascript:ExpandCollapse('absAddObsTAC')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/AddTAC14.pdf">Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://dx.doi.org/10.1109/TAC.2015.2422483">Publisher's link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2015_tac.html"> BibTeX</a></p>
+<div class="mid" id="absAddObsTAC" style="display:none"><p><font size="2">
+    This technical note points out certain limitations of our results from the paper mentioned in the title and provides a
+    modified approach to overcome these limitations. In particular, the observer design addressed in the aforementioned paper
+    is, in general, only applicable to switched linear systems with invertible state reset maps and this note presents a
+    modified algorithm for state estimation that can also handle non-invertible state reset maps. In the process, we also
+    identify some equalities from that paper which may not hold in general for arbitrary state reset maps.</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Stability,Nonlinear Analysis,Lyapunov Functions" data-type="Conference" data-year="2015"><b>[C15] On using norm-estimators for event-triggered control with dynamic output feedback</b><br/>
+     A. Tanwani,   A. Teel,  C. Prieur.<br/>
+     IEEE Conference on Decision and Control (CDC), 2015.<br/>
+     <a href="javascript:ExpandCollapse('absDynEvent')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2015_cdca.html"> BibTeX</a></p>
+<div class="mid" id="absDynEvent" style="display:none"><p><font size="2">
+    For feedback stabilization of a control system using dynamic output feedback, we consider the problem of finding two different sequences of time instants at which the sampled outputs (respectively, control inputs) must be sent to the controller (resp.~the plant). Instead of static inequalities, the states of so-called norm estimators are used to determine sampling instants. Using the tools from Lyapunov theory for hybrid systems and stability of cascaded nonlinear systems, it is shown that the closed loop system is globally asymptotically stable. Additional assumptions are required on the controller and system dynamics to guarantee that the proposed sampling routines do not lead to an accumulation of sampling times over a finite interval.
+</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Differential-Algebraic Equations,Observers,Lyapunov Functions" data-type="Conference" data-year="2015"><b>[C14] On detectability of switched linear differential-algebraic equations</b><br/>
+     A. Tanwani,   S. Trenn.<br/>
+     IEEE Conference on Decision and Control (CDC), 2015.<br/>
+     <a href="javascript:ExpandCollapse('absDetDAEs')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="bibentries/2015_cdcb.html"> BibTeX</a>
+<div class="mid" id="absDetDAEs" style="display:none"><p><font size="2">
+    This paper addresses the notion of detectability for continuous-time switched systems comprising linear differential-algebraic equations (DAEs). It relates to studying asymptotic stability of the set of state trajectories corresponding to zero input and zero output. Due to the nature of solutions of switched DAEs, the problem reduces to stability of the trajectories emanating from a non-vanishing unobservable subspace, for which we first derive a geometric expression based on our recent work on observability. The stability of state trajectories starting from a certain subspace can then be check in two possible ways. In the first case, detectability of switched DAE is shown to be equivalent to the asymptotic stability of a reduced order discrete-time switched system. In the second approach, the solutions from a non-vanishing unobservable subspace are mapped to the solutions of a  continuous reduced order time-varying switching ordinary differential equations (ODEs). As a special case of the later approach, the reduced order system is time-invariant if the unobservable subspace is invariant.</font>
+     </p></div>
+
+<p data-topic="Nonsmooth Systems,Stability,Lyapunov Functions" data-type="Workshop" data-year="2015"><b>[C13] Output regulation in differential variational inequalities using internal model principle and passivity-based approach.</b><br/>
+       A. Tanwani at <a href="http://conference.unisalento.it/ocs/index.php/gamm/gamm2015">GAMM Annual Workshop</a>, Lecce, Italy, 2015.<br/>
+       <a href="refs/outRegPamm.pdf">Preprint</a>
+(In <a href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1617-7061">Proceedings in Applied Mathematics and Mechanics</a>, published by Wiley)&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2015_pamm.html"> BibTeX</a></p>
+
+<p data-topic="Nonsmooth Systems,Observers" data-type="Workshop" data-year="2015"><b>[W3] Estimation and control problems in Moreau's sweeping process</b><br/>
+       A. Tanwani<br/>
+    SIAM Conference on Applications of Dynamical Systems, Snowbird, Utah (USA), 2015.<br/></p>
+
+<p data-topic="Switched/Hybrid Systems,Observers" data-type="Book Chapter" data-year="2015"><b>[Bc2] Observer Design for Switched Linear Systems with State Jumps</b><br/>
+     A. Tanwani,   H. Shim,   D. Liberzon<br/>
+     Hybrid Dynamical Systems, Lecture Notes in Control and Information Sciences Volume 457, pp. 179-203, 2015.<br/>
+     <a href="http://link.springer.com/chapter/10.1007/978-3-319-10795-0_7">Publisher's link</a></p>
+
+<p data-topic="Switched/Hybrid Systems" data-type="Book Chapter" data-year="2015"><b>[Bc1] Observability of Switched Linear Systems</b><br/>
+     M. Petreczky,   A. Tanwani,   S. Trenn.<br/>
+     Hybrid Dynamical Systems, Lecture Notes in Control and Information Sciences Volume 457, pp. 205-240, 2015.<br/>
+     <a href="http://link.springer.com/chapter/10.1007/978-3-319-10795-0_8">Publisher's link</a></p>
+<h3><font color="B22222">2014:</font></h3>
+<p data-topic="Nonsmooth Systems,Observers,Nonlinear Analysis,Stability" data-type="Journal" data-year="2014"><b>[J5] Stability and observer design for multivalued Lur'e systems with non-monotone, time-varying nonlinearities and state jumps</b><br/>
+     A. Tanwani,   B. Brogliato,  C. Prieur.<br/>
+     <i>SIAM J. Control and Optimization</i>, vol. 52(6), pp. 3639-3672, 2014.<br/>
+     <a href="javascript:ExpandCollapse('absSicon')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/sicon14.pdf">Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://epubs.siam.org/doi/abs/10.1137/120902252">Publisher's link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="bibentries/2014_sicon.html"> BibTeX</a> &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/ObsConvLCS.zip">Simulation Code</a> <font size="2">(needs
+    <a href="http://siconos.gforge.inrial.fr">SICONOS</a> kernel to generate data) </font></p>
+<div class="mid" id="absSicon" style="display:none"><p><font size="2">
+    This paper deals with the stability and observer design for
+    Lur'e systems with multivalued nonlinearities, which are not necessarily monotone or
+    time-invariant. Such differential inclusions model the motion of state trajectories which are
+    constrained to evolve in time-varying non-convex sets. Using Lyapunov-based analysis,
+    sufficient conditions are proposed for local stability in such systems, while specifying the
+    basin of attraction. If the sets governing the motion of state trajectories are moving with
+    bounded variation, then the resulting state trajectories are also of bounded variation, and
+    unlike the convex case, the stability conditions depend on the size of jumps allowed in the sets.
+    Based on the stability analysis, a Luenberger-like observer is proposed which is shown to
+    converge asymptotically to the actual state provided the initial value of the state estimation
+    error is small enough. In addition, a semi-global practically stable observer, based on the
+    high-gain approach, is designed to reduce the state estimation error to the desired accuracy
+    in finite time which is then combined with the locally convergent observer to obtain
+    semi-global asymptotically convergent state estimates.</font></p></div>
+<p data-topic="Stability,Switched/Hybrid Systems,Nonlinear Analysis,Observers" data-type="Journal" data-year="2014"><b>[J4] Hybrid-type observer design based on a sufficient condition for
+    observability in switched nonlinear systems</b><br/>
+     H. Shim,   A. Tanwani<br/>
+     <i>Int. Jnl. of Robust and Nonlinear Control</i> (Special issue), vol. 24 (6), pp. 1064-1089, April 2014.<br/>
+     <a href="javascript:ExpandCollapse('absijrnc')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/ShimTanw12.pdf">Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://dx.doi.org/10.1002/rnc.2901"> Publisher's link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="bibentries/2014_ijrnc.html"> BibTeX</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/NonSWObs.zip">Matlab Simulation Code</a>
+     </p>
+<div class="mid" id="absijrnc" style="display:none"><p><font size="2">
+    This paper presents a sufficient condition for observability of continuous-time switched nonlinear systems that also involve state jumps. Without assuming observability of individual modes, the sufficient condition is based on gathering partial information from each mode so that the state is completely recovered after several switchings. Based on the sufficient condition, a hybrid-type observer is designed, which comprises a copy of the actual plant and an error correction scheme at discrete time instants. In order to execute the proposed design, the observable component of the state at each mode needs to be estimated without transients or peaking (caused by high-gain observers), and this motivates us to introduce a back-and-forth estimation technique. Under the assumption of persistent switching, analysis shows that the estimate thus generated converges asymptotically to the actual state of the system. Simulation results validate the utility of proposed algorithm.</font></p></div>
+<p data-topic="Nonsmooth Systems,Stability" data-type="Conference" data-year="2014"><b>[C12] On output regulation in systems with differential variational inequalities</b><br/>
+     A. Tanwani,   B. Brogliato,   C. Prieur<br/>
+     <i>IEEE Conference Decision and Control (CDC),</i><font size="2"> (<b>invited session</b> on
+    <i>variational analysis in systems and control</i>)</font>, December 2014.<br/>
+     <a href="javascript:ExpandCollapse('abscdc14a')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="refs/outRegVI.pdf">Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2014_cdc.html"> BibTeX</a></p>
+<div class="mid" id="abscdc14a" style="display:none"><p><font size="2">
+    We consider the problem of designing state feedback control laws for output regulation in a class of dynamical systems
+    which are described by variational inequalities and ordinary differential equations. In our setup, these variational
+    inequalities are used to model state trajectories constrained to evolve within time-varying, closed, and convex sets,
+    and systems with complementarity relations.
+    We first derive conditions to study the existence and uniqueness of solutions in such systems.
+    The derivation of control laws for output regulation is based on the use of internal model principle,
+    and two cases are treated: first, a static feedback control law is derived when full state feedback is available;
+    In the second case, only the error to be regulated is assumed to be available for measurement and a dynamic compensator
+    is designed. As applications, we demonstrate how control input resulting from the solution of a variational
+    inequality results in regulating the output of the system while maintaining polytopic state constraints.
+    Another application is seen in designing switching signals for regulation in power converters.</font></p></div>
+<p data-topic="Nonsmooth Systems,Stability" data-type="Conference" data-year="2014"><b>[C11] On output regulation in state-constrained dynamical systems:
+    An application to polyhedral case</b><br/>
+     A. Tanwani,   B. Brogliato,   C. Prieur.<br/>
+     <i> IFAC World Congress</i><font size="2"> (<b>invited session</b> on <i>output regulation in hybrid
+    systems</i>)</font>, August 2014.<br/>
+     <a href="javascript:ExpandCollapse('absifac14')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/outRegLCS.pdf">Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="bibentries/2014_ifac.html"> BibTeX</a></p>
+<div class="mid" id="absifac14" style="display:none"><p><font size="2">
+    This paper deals with the problem of output regulation using the state feedback
+    control laws for a class of nonsmooth dynamical systems where the state is
+    constrained to evolve within some convex set. The formalism of differential
+    inclusions (DIs) is used to describe the system dynamics and the derivation of
+    the state feedback law is based on the internal model principle. We study two
+    types of control laws: firstly, a static control is designed assuming that the
+    entire states of the plant and the exosystem are available for feedback; In the
+    second case, only the error to be regulated is available for feedback and a
+    dynamic compensator is designed. The analyses are based on using the properties
+    of the normal cones associated with convex sets to study the well-posedness
+    (existence and uniqueness of solutions) and the stability of the closed-loop
+    system. As an application, we design a discontinuous controller which guarantees
+    the viability of a predefined polyhedral subset of the state space using the
+    formulation of linear complementarity systems.</font></p></div>
+<h3><font color="B22222">2013:</font></h3>
+<p data-topic="Stability,Switched/Hybrid Systems,Observers" data-type="Journal" data-year="2013"><b>[J3] Observability of switched linear systems: Characterization and observer design</b><br/>
+     A. Tanwani,   H. Shim,  D. Liberzon.<br/>
+     <i>IEEE Transactions on Automatic Control</i>, vol. 58 (4), pp. 891-904, April 2013.<br/>
+     <a href="javascript:ExpandCollapse('absSwTAC')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/TanwShim13.pdf">PDF</a><font size="2"> (also contains erratum)</font>
+<a href="http://dx.doi.org/10.1109/TAC.2012.2224257"> Publisher's link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="bibentries/2013_tac.html"> BibTeX</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/TAC11Online.zip">Matlab Simulation Code</a></p>
+<div class="mid" id="absSwTAC" style="display:none"><p><font size="2">
+    This paper presents a characterization of observability and an observer design method for switched linear systems with
+    state jumps. A necessary and sufficient condition is presented for observability,
+    globally in time, when the system evolves under predetermined mode transitions.
+    Because this characterization depends upon the switching signal under consideration,
+    the existence of singular switching signals is studied alongside developing a
+    sufficient condition that guarantees uniform observability with respect to switching
+    times. Furthermore, while taking state jumps into account, a relatively weaker
+    characterization is given for determinability, the property that concerns with
+    recovery of the original state at some time rather than at all times. Assuming
+    determinability of the system, a hybrid observer is designed for the most general
+    case to estimate the state of the system and it is shown that the estimation error
+    decays exponentially. Since the individual modes of the switched system may not be
+    observable, the proposed strategy for designing the observer is based upon a novel idea
+    of accumulating the information from individual subsystems. Contrary to the usual approach,
+    dwell-time between switchings is not necessary, but the proposed design does require
+    persistent switching. For practical purposes, the calculations also take into account
+    the time consumed in performing computations.</font></p></div>
+
+<p data-topic="Nonsmooth Systems,Observers" data-type="Conference" data-year="2013"><b>[C10] Passivity-based observer design for a class of Lagrangian systems with perfect unilateral constraints</b><br/>
+     A. Tanwani,   B. Brogliato,   C. Prieur.<br/>
+     <i>Proc. 52nd IEEE Conference Decision and Control (CDC)</i>, Florence, Italy, December 2013.<br/>
+     <a href="javascript:ExpandCollapse('abscdc13a')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/TanwBrog13.pdf">Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2013_cdca.html"> BibTeX</a></p>
+<div class="mid" id="abscdc13a" style="display:none"><p><font size="2">
+    This paper addresses the problem of estimating the velocity variables, using the position measurement as output, in nonlinear Lagrangian dynamical systems with perfect unilateral constraints. The dynamics of such systems are formulated as a measure differential inclusion (MDI) at velocity level which naturally encodes the relations for prescribing the post-impact velocity. Under the assumption that the velocity of the system is uniformly bounded, an observer is designed which is also a measure differential inclusion. It is proved that there exists a unique solution to the proposed observer and that solution converges asymptotically to the actual velocity.</font></p></div>
+
+<p data-topic="Switched/Hybrid Systems,Differential-Algebraic Equations,Observers" data-type="Conference" data-year="2013"><b>[C9] An observer for switched differential-algebraic equations based on geometric characterization of observability</b><br/>
+     A. Tanwani,   S. Trenn.<br/>
+     <i>Proc. 52nd IEEE Conf. Decision and Control</i><font size="2"> (<b>invited session</b> on <i>control aspects of switched systems</i>)</font>, Florence, Italy, December 2013.<br/>
+     <a href="javascript:ExpandCollapse('abscdc13b')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/TanwTren13.pdf">Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="bibentries/2013_cdcb.html"> BibTeX</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/ObsSwDAESLin.zip">Matlab Simulation Example</a></p>
+<div class="mid" id="abscdc13b" style="display:none"><p><font size="2">
+    Based on our previous work dealing with geometric characterization of observability for switched differential-algebraic equations (switched DAEs),
+    we propose an observer design for switched DAEs that generates an asymptotically convergent
+    state estimate. Without assuming the observability of individual modes, the central idea in
+    constructing the observer is to filter out the maximal information from the output of each of
+    the active subsystems and combine it with the previously extracted information to obtain a good
+    estimate of the state after a certain time has passed. In general, observability only holds when
+    impulses in the output are taken into account, hence our observer incorporates the knowledge of
+    impulses in the output. This is a distinguished feature of our observers design compared to
+    observers for switched ordinary differential equations.</font></p></div>
+
+<p data-topic="Stability,Nonlinear Analysis,Nonsmooth Systems" data-type="Conference" data-year="2013"><b>[C8] On Stability of measure driven differential equations</b><br/>
+     A. Tanwani,   B. Brogliato,   C. Prieur.<br/>
+     <i>9th IFAC Symposium on Nonlinear Control Systems</i>, Toulouse, France, Sep 2013.<br/>
+     <a href="javascript:ExpandCollapse('absnolcos13')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/issMDE.pdf">Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="bibentries/2013_nolcos.html"> BibTeX</a></p>
+<div class="mid" id="abscnolcos13" style="display:none"><p><font size="2">
+    We consider the problem of stability in a class of differential equations which are driven by a differential measure associated with the inputs of locally bounded variation. After discussing some existing notions of solution for such systems, we derive conditions on the system's vector fields for asymptotic stability under a specific class of inputs. These conditions present a trade-off between the Lebesgue-integrable and the measure-driven components of the system. In case the system is not asymptotically stable, we derive weaker conditions such that the norm of the resulting trajectory is bounded by some function of the total variation of the input, which generalizes the notion of integral input-to-state
+    stability in measure-driven systems.</font></p></div>
+<p data-topic="Nonsmooth Systems,Observers" data-type="Workshop" data-year="2013"><b>[W1] Observer design for a class of Langrangian systems with impacts.</b><br/>
+       A. Tanwani<br/>
+       Second workshop on European Network for Nonsmooth Dynamics (ENNSD), Grenoble, France, 2013.</p>
+<h3><font color="B22222">2012:</font></h3>
+<p data-topic="Switched/Hybrid Systems,Differential-Algebraic Equations,Observers" data-type="Conference" data-year="2012"><b>[C7] Observability of switched differential-algebraic equations for general switching signals</b><br/>
+     A. Tanwani,   S. Trenn.<br/>
+     <i>Proc. 51st IEEE Conference Decision and Control (CDC)</i>, Maui, Hawaii, December 2012.<br/>
+     <a href="javascript:ExpandCollapse('abscdc12a')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/TanwTren12.pdf">Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2012_cdcb.html"> BibTeX</a></p>
+<div class="mid" id="abscdc12a" style="display:none"><p><font size="2">
+    We study observability of switched differential algebraic equations (DAEs) for arbitrary switching. We present a characterization of observability and, a related property called, determinability. These characterizations utilize the results for the single-switch case recently obtained by the authors. Furthermore, we study observability conditions when only the mode sequence of the switching signal (and not the switching times) are known. This leads to necessary and sufficient conditions for observability and determinability. We illustrate the results with  examples.</font></p></div>
+<p data-topic="Stability,Nonlinear Analysis,Observers" data-type="Conference" data-year="2012"><b>[C6] Back-and-forth operation of state observers and
+    norm estimation of estimation error</b><br/>
+     H. Shim,   A. Tanwani,   Z. Ping.<br/>
+     <i>Proc. 51st IEEE Conf. Decision and Control</i>, Maui, Hawaii, December 2012.<br/>
+     <a href="javascript:ExpandCollapse('abscdc12b')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/BFObservCDC.pdf">Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2012_cdca.html"> BibTeX</a></p>
+<div class="mid" id="abscdc12b" style="display:none"><p><font size="2">
+    In contrast to classical observers operating synchronously
+    with the plant, this paper proposes a state estimation algorithm that executes Luenberger observers in a back-and-forth
+    manner using the stored inputs and output signals. One
+    benefit of this technique is the rapid convergence of state
+    estimation error without relying on high injection gain, so
+    that the amplification of measurement noise is much relieved.
+    Moreover, by operating the observer in the proposed manner,
+    we obtain an upper bound on the estimation error independent
+    of its initial value. Some real-time applications of the proposed
+    idea, and the effect of disturbances, are also discussed.</font></p></div>
+<h3><font color="B22222">2011:</font></h3>
+<p data-topic="Switched/Hybrid Systems" data-type="Journal" data-year="2011"><b>[J2] An inversion-based approach to fault detection and isolation in switching electrical networks</b><br/>
+     A. Tanwani,   A. D. Dominguez-Garcia,   D. Liberzon.<br/>
+     <i>IEEE Trans. on Control Systems Technology</i>, vol. 19 (5), pp. 1059-1074, 2011.<br/>
+     <a href="javascript:ExpandCollapse('abstcst')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/TanwGarc11.pdf">PDF</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://dx.doi.org/10.1109/TCST.2010.2067214"> Publisher's link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="bibentries/2011_tcst.html"> BibTeX</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/fdiBoost.zip">Matlab Simulation Code</a><font size="2"> (needs PLECS plugin to simulate the boost converter)</font>
+     </p>
+<div class="mid" id="abstcst" style="display:none"><p><font size="2">
+    This paper proposes a framework for fault detection and isolation (FDI) in electrical energy systems based on techniques
+    developed in the context of invertibility of switched systems. In the absence of
+    faults--the nominal mode of operation--the system behavior is described by one set
+    of linear differential equations or more in the case of systems with natural
+    switching behavior, e.g., power electronics systems. Faults are categorized as
+    hard and soft. A hard fault causes abrupt changes in the system structure, which
+    results in an uncontrolled transition from the nominal mode of operation to a
+    faulty mode governed by a different set of differential equations. A soft fault
+    causes a continuous change over time of certain system structure parameters,
+    which results in unknown additive disturbances to the set(s) of differential
+    equations governing the system dynamics. In this setup, the dynamic behavior of
+    an electrical energy system (with possible natural switching) can be described
+    by a switched state space model where each mode is driven by possibly known and
+    unknown inputs. The problem of detection and isolation of hard faults is
+    equivalent to uniquely recovering the switching signal associated with
+    uncontrolled transition caused by hard faults. The problem of detection and
+    isolation of soft faults is equivalent to recovering the unknown additive
+    disturbance caused by the fault. Uniquely recovering both switching signal and
+    unknown inputs is the concern of the (left) invertibility problem in switched
+    systems, and we are able to adopt theoretical results on that problem, developed
+    earlier, to the present FDI setting. The application of the proposed framework
+    to fault detection and isolation in switching electrical networks is illustrated
+    with several examples.</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Stability,Nonlinear Analysis" data-type="Conference" data-year="2011"><b>[C5] Robust invertibility of switched linear systems</b><br/>
+     A. Tanwani,   D. Liberzon.<br/>
+     <i>Proc. 50th IEEE Conf. Decision and Control</i>, Orlando, FL, December 2011.<br/>
+     <a href="javascript:ExpandCollapse('abscdc11')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/RobustInvCDC.pdf">Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2011_cdc.html"> BibTeX</a></p>
+<div class="mid" id="abscdc11" style="display:none"><p><font size="2">
+    In this paper, we address the effects
+    of uncertainties in output measurements and initial conditions on invertibility
+    of the switched systems -- the problem concerned with the recovery of the input
+    and the switching signal using the output and the initial state. By computing
+    the reachable sets and maximal error in the propagation of state trajectories
+    through the inverse system, we derive conditions under which it is possible to
+    recover the exact switching signal over a certain time interval, provided the
+    uncertainties are bounded in some sense. In addition, we discuss separately the
+    case where each subsystem is minimum phase and it is possible to recover the
+    exact switching signal globally in time. The input, though, is recoverable only
+    up to a neighborhood of the original input.</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Nonlinear Analysis,Observers" data-type="Conference" data-year="2011"><b>[C4] On a sufficient condition for observability of switched nonlinear systems and observer design strategy</b><br/>
+     H. Shim,   A. Tanwani.<br/>
+     <i>Proc. American Control Conf.</i>, San Francisco, CA, June 2011.<br/>
+     <a href="javascript:ExpandCollapse('absacc11')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/ACC11NonlinObs.pdf">Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="bibentries/2011_acc.html"> BibTeX</a></p>
+<div class="mid" id="absacc11" style="display:none"><p><font size="2">
+    This paper presents a sufficient condition
+    for observability of switched systems that involve state jumps and comprise
+    nonlinear dynamical subsystems affine in control. Without assuming observability
+    of individual modes, the sufficient condition is based on gathering partial
+    information from each mode so that the state is recovered completely after some
+    time. Using this result, an observer is designed which employs a novel 'back-and-forth'
+    technique to generate state estimates. Under the assumption of persistent switching,
+    analysis shows that the estimate converges asymptotically to the actual state
+    of the system.</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Observers" data-type="Conference" data-year="2011"><b>[C3] Observability implies observer design for switched linear systems</b><br/>
+     A. Tanwani,   H. Shim,   D. Liberzon.<br/>
+     <i> Proc. ACM Conf. Hybrid Systems: Computation and Control</i>, Chicago, IL, Apr 2011.<br/>
+     <a href="javascript:ExpandCollapse('abshscc11')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/hscc02-TSL.pdf">Preprint</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/errHSCC.pdf">Erratum</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/HSCC11.zip">Matlab Simulation Example</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2011_hscc.html"> BibTeX</a></p>
+<div class="mid" id="abshscc11" style="display:none"><p><font size="2">
+    This paper presents a unified framework
+    for observability and observer design for a class of hybrid systems. A necessary
+    and sufficient condition is presented for observability, globally in time, when
+    the system evolves under predetermined mode transitions. A relatively weaker
+    characterization is given for determinability, the property that concerns with
+    unique recovery of the state at some time rather than at all times. These
+    conditions are then utilized in the construction of a dynamic observer that is
+    feasible for implementation in practice. The observer, without using the
+    derivatives of the output, generates the state estimate that converges to the
+    actual state under persistent switching.</font></p></div>
+<h3><font color="B22222">2010 and before:</font></h3>
+<p data-topic="Switched/Hybrid Systems,Nonlinear Analysis" data-type="Journal" data-year="2010"><b>[J1] Invertibility of nonlinear switched systems</b><br/>
+     A. Tanwani,   D. Liberzon.<br/>
+     <i>Automatica</i>, vol. 46 (12), pp. 1962-1973, 2010.<br/>
+     <a href="javascript:ExpandCollapse('absAut10')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/TanwLibe10.pdf">PDF</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://dx.doi.org/10.1016/j.automatica.2010.08.002"> Publisher's link</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/switchInvert.zip">Matlab Simulation Code</a><font size="2"> (linear case)</font>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2010_aut.html"> BibTeX</a></p>
+<div class="mid" id="absAut10" style="display:none"><p><font size="2">
+    This article addresses the invertibility problem for switched nonlinear systems a ne in controls. The
+    problem is concerned with reconstructing the input and switching signal uniquely
+    from given output and initial state. We extend the concept of switch-singular
+    pairs, introduced recently, to nonlinear systems and develop a formula for
+    checking if the given state and output form a switch-singular pair. A necessary
+    and sufficient condition for the invertibility of switched nonlinear systems is
+    given, which requires the invertibility of individual subsystems and the
+    nonexistence of switch-singular pairs. When all the subsystems are invertible,
+    we present an algorithm for finding switching signals and inputs that generate a
+    given output in a finite interval when there is a finite number of such switching
+    signals and inputs. Detailed examples are included to illustrate these newly
+    developed concepts. </font></p></div>
+<p data-topic="Switched/Hybrid Systems,Differential-Algebraic Equations" data-type="Conference" data-year="2010"><b>[C2] On observability of switched differential-algebraic equations</b><br/>
+     A. Tanwani,   S. Trenn.<br/>
+     <i>Proc. 49th IEEE Conf. Decision and Control (CDC)</i>, Atlanta, GA, December 2010.<br/>
+     <a href="javascript:ExpandCollapse('abscdc10')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/CDC10_0198_MS.pdf">Full text</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2010_cdc.html"> BibTeX</a></p>&nbsp;&nbsp;&nbsp;&nbsp;
+<div class="mid" id="abscdc10" style="display:none"><p><font size="2">
+    We investigate observability of switched differential algebraic equations. The
+    article primarily focuses on a class of switched systems comprising of two modes
+    and a switching signal with single switching instant. We provide a necessary and
+    sufficient condition under which it is possible to recover the value of state
+    trajectory (globally in time) with the help of switching phenomenon, even though
+    the constituent subsystems may not be observable. In case the switched system is
+    not globally observable, we discuss the concept of forward observability which
+    deals with the recovery of state trajectory after the switching. A necessary and
+    sufficient condition that characterizes forward observability is presented.
+    Several examples are included for better illustration of the key concepts.</font></p></div>
+<p data-topic="Switched/Hybrid Systems,Nonlinear Analysis" data-type="Conference" data-year="2010"><b>[C1] Invertibility of nonlinear switched systems</b><br/>
+     A. Tanwani,   D. Liberzon.<br/>
+     <i>Proc. 47th IEEE Conf. Decision and Control (CDC)</i>, Cancun, Mexico, December 2008.<br/>
+     <a href="javascript:ExpandCollapse('abscdc08')">Abstract</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="refs/CDC08_1151_MS.pdf">Full text</a>&nbsp;&nbsp;&nbsp;&nbsp;
+     <a href="bibentries/2008_cdc.html"> BibTeX</a></p>
+<div class="mid" id="abscdc08" style="display:none"><p><font size="2">
+    This article addresses the invertibility problem for switched nonlinear systems
+    affine in controls. The problem is concerned with finding the input and
+    switching signal uniquely from given output and initial state. We extend the
+    concept of switch-singular pairs, to nonlinear systems and develop a formula for checking if given state and
+    output form a switch-singular pair. We give a necessary and sufficient condition
+    for a switched system to be invertible, which says that the subsystems should be
+    invertible and there should be no switch-singular pairs. When all the subsystems
+    are invertible, we present an algorithm for finding switching signals and inputs
+    that generate a given output in a finite interval when there is a finite number
+    of such switching signals and inputs. Detailed examples are included to
+    illustrate these newly developed concepts.
+</font></p></div>
+<h3><font color="B22222">Phd Thesis</font></h3>
+<b><a href="http://hdl.handle.net/2142/29755">Invertibility and Observability of Switched Systems
+    with Inputs and Outputs</a></b><br/>
+<font size="2">Adviser: Daniel Liberzon<br/>
+    Committee Members: D. Liberzon (Chair), P. R. Kumar, A. Dominguez-Garcia, S. Mitra<br/>
+    Completed: December, 2011.</font></p>
+</p></p></p></p></p></p></p></p></p></p></p></p></div>
+</div>
+<div id="scroll">
+<a class="top" href="#" title="Scroll to the top"><img alt="top" src="images/top.png"/></a>
+</div>
+<footer>
+<p><a href="https://scholar.google.com/citations?user=ZLcomKkAAAAJ&amp;hl"><img alt="google scholar" src="images/scholar.png"/></a>  <a href="https://orcid.org/0000-0003-1387-2855"><img alt="orcid" src="images/orcid.png"/></a>  <a href="https://www.linkedin.com/in/atanwani"><img alt="linkedin" src="images/linkedin.png"/></a></p>
+<p><a href="index.html">Home</a> | <a href="biography.html">About Me</a> | <a href="publications.html">Publications</a> | <a href="projects.html">Projects</a> | <a href="teaching.html">Teaching</a> | <a href="group.html">People</a></p>
+</footer>
+
+<!-- javascript at the bottom for fast page loading -->
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/jquery.easing-sooper.js" type="text/javascript"></script>
+<script src="js/jquery.sooperfish.js" type="text/javascript"></script>
+<script type="text/javascript">
+            $(document).ready(function() {
+                              $('ul.sf-menu').sooperfish();
+                              $('.top').click(function() {$('html, body').animate({scrollTop:0}, 'fast'); return false;});
+                              });
+            </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const pubs = document.querySelectorAll("#site_content p[data-year]");
+    const yearSet = new Set();
+    const typeSet = new Set();
+    const topicSet = new Set();
+
+    pubs.forEach(pub => {
+        yearSet.add(pub.dataset.year);
+        typeSet.add(pub.dataset.type);
+        pub.dataset.topic.split(',').forEach(t => topicSet.add(t.trim()));
+    });
+
+    function addCheckboxes(containerSelector, className, values) {
+        const container = document.querySelector(containerSelector);
+        values.forEach(v => {
+            if(v) {
+                const label = document.createElement("label");
+                const cb = document.createElement("input");
+                cb.type = "checkbox";
+                cb.className = className;
+                cb.value = v;
+                label.appendChild(cb);
+                label.appendChild(document.createTextNode(" " + v));
+                container.appendChild(label);
+            }
+        });
+    }
+    const typeOrder = ["Journal", "Conference", "Preprint", "Book Chapter", "Workshop", "Other"];
+    const topicOrder =["Switched/Hybrid Systems","Nonsmooth Systems","Interconnections","Nonlinear Analysis","Stability","Lyapunov Functions","Filtering","Random Sampling","Networks","Optimization","Observers","Differential-Algebraic Equations","Optimal Control","Data-driven","Quantization","Other"];
+
+    function sortCustom(array, order) {
+        // build a lookup map with normalized keys
+        const orderMap = order.reduce((m, val, idx) => {
+            m.set(String(val).toLowerCase().trim(), idx);
+            return m;
+        }, new Map());
+
+        return Array.from(array).sort((a, b) => {
+            const na = String(a).toLowerCase().trim();
+            const nb = String(b).toLowerCase().trim();
+
+            const ia = orderMap.has(na) ? orderMap.get(na) : order.length;
+            const ib = orderMap.has(nb) ? orderMap.get(nb) : order.length;
+
+            if (ia !== ib) return ia - ib;
+
+            // fallback: keep a deterministic order (alphabetical by normalized value)
+            return na.localeCompare(nb);
+        });
+    }
+
+    addCheckboxes(".yearFilter-container", "yearFilter", Array.from(yearSet).sort((a,b) => b.localeCompare(a)));
+    addCheckboxes(".typeFilter-container", "typeFilter", sortCustom(Array.from(typeSet), typeOrder));
+    addCheckboxes(".topicFilter-container", "topicFilter", sortCustom(Array.from(topicSet), topicOrder));
+    <!--addCheckboxes(".typeFilter-container", "typeFilter", Array.from(typeSet).sort());-->
+    <!--addCheckboxes(".topicFilter-container", "topicFilter", Array.from(topicSet).sort());-->
+
+    function getCheckedValues(className) {
+        return Array.from(document.querySelectorAll("."+className+":checked"))
+            .map(cb => cb.value)
+            .filter(v => v !== "");
+    }
+
+    function filterPubs() {
+        const years = getCheckedValues("yearFilter");
+        const types = getCheckedValues("typeFilter");
+        const topics = getCheckedValues("topicFilter");
+
+        pubs.forEach(pub => {
+            const matchYear = years.length === 0 || years.includes(pub.dataset.year);
+            const matchType = types.length === 0 || types.includes(pub.dataset.type);
+            const matchTopic = topics.length === 0 || topics.some(tp => pub.dataset.topic.split(',').map(x => x.trim()).includes(tp));
+            pub.style.display = (matchYear && matchType && matchTopic) ? "" : "none";
+        });
+    }
+
+    document.querySelectorAll("#filters input[type='checkbox']").forEach(cb => {
+        cb.addEventListener("change", function() {
+            const cls = this.className;
+            if(this.value === "") {
+                const allChecked = this.checked;
+                document.querySelectorAll("."+cls).forEach(box => {
+                    if(box.value !== "") box.checked = false;
+                });
+                if(!allChecked) this.checked = true;
+            } else {
+                const allBox = document.querySelectorAll("."+cls+"[value='']")[0];
+                allBox.checked = false;
+            }
+            filterPubs();
+        });
+    });
+});
+</script>
+</body>
+</html>
