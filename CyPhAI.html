@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+    
+    <head>
+        <title>Aneel Tanwani</title>
+        <meta name="description" content="website description" />
+        <meta name="keywords" content="website keywords, website keywords" />
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <!-- modernizr enables HTML5 elements and feature detects -->
+        <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+    </head>
+    
+    <body>
+        <div id="main">
+            <header>
+                <div id="logo">
+                    <img border="0" src="pic_ece.jpg" align="left" width="80" height="105">
+                        <div id="logo_text">
+                            <!-- class="logo_colour", allows you to change the colour of the text -->
+                            <h1>&nbsp;&nbsp;<a href="index.html"><span class="logo_colour">Aneel Tanwani</span></a></h1>
+                            <h2>&nbsp;&nbsp;&nbsp;&nbsp;Researcher, <a href="http://www.laas.fr"  style="color:inherit;">LAAS</a> - <a href="http://www.cnrs.fr"  style="color:inherit;">CNRS</a></h2>
+                        </div>
+                        </div>
+                <nav>
+                    <div id="menu_container">
+                        <ul class="sf-menu" id="nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="biography.html">About Me</a></li>
+                            <li><a href="publications.html">Publications</a></li>
+                            <li><a href="projects.html">Projects</a>
+                                <ul>
+                                    <li><a href="ConVan.html">ConVan</a></li>
+                                    <li><a href="https://dirobs.laas.fr">DiRObs</a></li>
+                                    <li><a href="CyPhAI.html">CyPhAI</a></li>
+                                </ul></li>
+                            <li><a href="teaching.html">Teaching</a></li>
+                            <li><a href="group.html">People</a>
+                                <ul>
+                                    <li><a href="group.html">Collaborators</a></li>
+                                    <li><a href="group.html">Group</a></li>
+                                </ul></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <div id="site_content">
+            <h2 align="center">ANR-JST Collaborative Project between France and Japan</h2>
+            <h1 align="center">Formal Analysis and Design of AI-Intensive Cyber Physical Systems</h1>
+        <ul>
+            <li> <b>Principal Investigator:</b> Thao Dang (France) and Kohei Suenaga (Japan)</li>
+            <li> <b>Coordinators:</b> Aneel Tanwani (CNRS-LAAS, Toulouse); Eugene Asarin (IRIF, France); Benoit Barbot (LACL, France); Alexandre Donze (Decyphir, France); Masako Kishida (Japan)</li>
+            <li> <b>Open Positions at LAAS: <font color="B22222">Postdoc; MS internship</font></b>. Contact Aneel Tanwani</li>
+            <li align="justify"> <b>Abstract:</b>
+                Artificial intelligence (AI) and data sciences are revolutionizing information systems used for control and supervision of various devices (such as sensors, robots, IoT devices) with higher levels of autonomy and adaptability in uncertain and dynamically changing environments. Among such information systems are Cyber-Physical Systems (CPS) from which emerges a new generation of AI-intensive Cyber-Physical Systems that we call AI-CPS. Autonomous vehicles are examples to illustrate the synergy between CPS and AI. The physical processes in such a system are typically CPS, with vehicle hybrid dynamics, low-level engine control, and a high-level control loop where AI components are present in sensors, cameras, image and scene recognition modules that influence the coordination and decision making of the system to assure their autonomy. These modules are designed by training AI components (such as neural nets) that learn how to classify road conditions and react to them.</br>
+                
+                AI-CPS pose a number of design challenges. On one hand, AI techniques are “unpredictable” due to a lack of formal framework to provide safety guarantees. On the other hand, the existing CPS design methods, relying on rather fixed models (that is once a system is deployed, its structure and configuration are generally fixed), face a fundamental problem because AI-CPS are supposed to learn from experience and interactions with the environment, adapt and regulate their behaviors accordingly. It is imperative to ensure that their learning- enabled components work correctly because they may directly affect people’s lives and fortune. Self-driving car accidents caused by AI failures are striking real examples. In general, the outcomes of learning activities in AI components are not easily interpretable. When coupling CPS with AI, the increased heterogeneity in dynamics and behaviors can aggravate the reliability and explainability issues, if the learning activities are not properly formalized.</br>
+                
+                It is important to note that the existing frameworks for formalizing learning activities were developed for purely discrete or continuous settings, and extensions to hybrid dynamical systems are scarce and ad-hoc. Together with the new design challenges, the combination of CPS and AI also opens new opportunities. Indeed, we can benefit from the current progress in AI to enhance the current CPS design approaches.
+                <ul>
+                <li> Combining model-based and data-driven approaches. Model-based design has been so far an efficient approach for CPS, by exploiting computing technology to create complex mathematical models to automatically debug, verify, test and implement these systems. Nevertheless, many objects and phenomena, emerging in the interaction between cyber-physical and AI components, are not amenable to first principle analysis and discovering their dynamics should rely on data. However, data-driven models cannot provide causal mechanisms and can only make predictions related to patterns “close” to the supplied data. The advantages and drawbacks of the model-based (white-box) and data-driven (black-box) approaches should be combined, leading to a gray-box approach that will be developed in this project.</li>
+                <li> Developing formal learning-enabled components. AI techniques can be used to derive efficient heuristics which are guaranteed to be safe if developed within a formal framework.</li>
+                </ul>
+                The research will be organized in 5 work packages that cover major problems in the design process:
+                <ul>
+                    <li> WP1 - Learning for CPS,</li>
+                    <li> WP2 - Learning within CPS,</li>
+                    <li> WP3-Validation of CPS and AI-CPS,</li>
+                    <li> WP4-Monitoring and Control for Enforcing Dependability and Performance constraints,</li>
+                    <li> WP5-Case Studies, Applications and Tools.</li>
+                    </ul>
+                To achieve these objectives, we will combine formal methods from computer science with mathematical control theory. In particular we will develop mathematical concepts for measuring and sampling sets of AI-CPS behaviors, with respect to quantitative criteria (such as property satisfaction, control performance). These concepts are necessary for formal reasoning and extracting information from data, to learn hybrid processes and combine black-box (model-free and data-driven) and white box (model-based) approaches for validation, control, and online monitoring.
+            </li>
+        </ul>
+        </div>
+            <div id="scroll">
+                <a title="Scroll to the top" class="top" href="#"><img src="images/top.png" alt="top" /></a>
+            </div>
+            <footer>
+                <p><a href="https://scholar.google.com/citations?user=ZLcomKkAAAAJ&hl"><img src="images/scholar.png" alt="google scholar" /></a>&nbsp;&nbsp;<a href="https://orcid.org/0000-0003-1387-2855"><img src="images/orcid.png" alt="orcid" /></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/atanwani"><img src="images/linkedin.png" alt="linkedin" /></a></p>
+                <p><a href="index.html">Home</a> | <a href="biography.html">About Me</a> | <a href="publications.html">Publications</a> | <a href="projects.html">Projects</a> | <a href="teaching.html">Teaching</a> | <a href="group.html">People</a></p>
+            </footer>
+        </div>
+        <!-- javascript at the bottom for fast page loading -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+        <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                              $('ul.sf-menu').sooperfish();
+                              $('.top').click(function() {$('html, body').animate({scrollTop:0}, 'fast'); return false;});
+                              });
+            </script>
+    </body>
+</html>
