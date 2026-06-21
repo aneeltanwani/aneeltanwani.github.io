@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+    
+    <head>
+        <title>Aneel Tanwani</title>
+        <meta name="description" content="website description" />
+        <meta name="keywords" content="website keywords, website keywords" />
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <!-- modernizr enables HTML5 elements and feature detects -->
+        <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+        <style>
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+                .imgbox {
+                    display: grid;
+                    height: 100%;
+                }
+                .center-fit {
+                    max-width: 100%;
+                    max-height: 100vh;
+                    margin: auto;
+                }
+            </style>
+    </head>
+    
+    <body>
+        <div id="main">
+            <header>
+                <div id="logo">
+                    <img border="0" src="pic_ece.jpg" align="left" width="80" height="105">
+                        <div id="logo_text">
+                            <!-- class="logo_colour", allows you to change the colour of the text -->
+                            <h1>&nbsp;&nbsp;<a href="index.html"><span class="logo_colour">Aneel Tanwani</span></a></h1>
+                            <h2>&nbsp;&nbsp;&nbsp;&nbsp;Researcher, <a href="http://www.laas.fr"  style="color:inherit;">LAAS</a> - <a href="http://www.cnrs.fr"  style="color:inherit;">CNRS</a></h2>
+                        </div>
+                        </div>
+                <nav>
+                    <div id="menu_container">
+                        <ul class="sf-menu" id="nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="biography.html">About Me</a></li>
+                            <li><a href="publications.html">Publications</a></li>
+                            <li><a href="projects.html">Projects</a>
+                                <ul>
+                                    <li><a href="ConVan.html">ConVan</a></li>
+                                    <li><a href="https://dirobs.laas.fr">DiRObs</a></li>
+                                    <li><a href="CyPhAI.html">CyPhAI</a></li>
+                                </ul></li>
+                            <li><a href="teaching.html">Teaching</a></li>
+                            <li><a href="group.html">People</a>
+                                <ul>
+                                    <li><a href="group.html">Collaborators</a></li>
+                                    <li><a href="group.html">Group</a></li>
+                                </ul></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <div id="site_content">
+            <h2 align="center">Habilitation &agrave; Diriger des Recherches</h2>
+            <h1 align="center">Analysis of Interconnected Systems with Nonlinear and Hybrid Dynamics</h1>
+            <div class="imgbox">
+            <img class="center-fit" src="hdrJury.jpeg" alt="After Defence Photo with Jury">
+            </div>
+        <ul>
+            <li> <b>Submission of Manuscript:</b> December 6th, 2024</li>
+            <li> <b>Date of Defence:</b> March 14th, 2025</li>
+            <li> <b>Recording of the Presentation:</b> <a href="hdrTalk.mp4">HDR Defence Talk</a></li>
+            <li> <b>Manuscript:</b> <a href=hdr_Tanwani_25.pdf>Final Draft</a> </li>
+            <li> <b>Reviewers:</b></li>
+                <ul>
+                    <li> Antoine Girard, Directeur de Recherche, CNRS, France</li>
+                    <li> Lars Gr&uuml;ne, Professor, University of Bayreuth, Germany</li>
+                    <li> Joao Hespanha, Professor, University of California at Santa Barbara, USA</li>
+                </ul>
+            <li> <b>Examiners:</b></li>
+                <ul>
+                    <li> Bernard Brogliato, Directeur de Recherche, INRIA, France</li>
+                    <li> Daniel Liberzon, Professor, University of Illinois at Urbana-Champaign, USA</li>
+                    <li> Christophe Prieur, Directeur de Recherche, CNRS, France</li>
+                    <li> Hyungbo Shim, Professor, Seoul National University, South Korea</li>
+                </ul>
+            <li> <b>Marraine:</b> Sophie Tarbouriech, Directrice de Recherche, CNRS, France</li>
+            <li align="justify"> <p><b>Abstract:</b> The complexity of modern control systems can often be attributed to two elements: firstly, such systems involve logic-based decision making which results in dynamics at different time scales, and secondly, these systems comprise several subsystems which play an important role in shaping the properties of the integrated system. Following this viewpoint, the thesis addresses the analysis techniques for interconnection of systems described by switching, nonsmooth, or more generally, hybrid dynamics in both deterministic and stochastic framework.</p>
+                
+                <p>Starting from some earlier work, we first present the classical cascade configuration for time-dependent switched systems where  the stability conditions are formulated for a certain class of switching signals using multiple Lyapunov functions, and the notion of input-to-state stability. As a generalization, and using the tools from nonsmoth analysis, we study the feedback interconnections of Filippov differential inclusions (for state-dependent switched systems) with application to observer-based control, and anti-maximal monotone differential inclusions (for projected systems, complementarity systems, and sweeping processes) with application to analyzing certain optimization algorithms. Moving forward, and in the spirit of studying a broader class of interconnections, we study graph-coupled nonlinear systems where the exchange of information between agents is described by switching, but jointly-connected, graphs. The analysis of such systems is carried out by developing singular perturbation theory for hybrid systems, where we propose a novel decomposition of hybrid systems resulting in a continuous-time quasi-steady-state system and a purely discrete-time boundary layer system with constrained switching. We provide conditions for asymptotic practical stability, which in the setting of graph-based interconnections, translate to checking some properties of the graphs and the stability of reduced-order subsystems.</p>
+
+                <p>In the final part of the thesis, we step away from the deterministic framework and study interconnections in stochastic setting that appear in the design of certain filtering algorithms. The first such class of interconnections is seen in ensemble filters (for systems described by stochastic differential equations and discrete observations) where we propose algorithms for computing the approximation of the posterior distribution of the state conditioned upon the measurements by simulating particles resulting from continuous-discrete McKean-Vlasov type differential equations. We then develop appropriate tools for analyzing the interconnection of particles coupled to each other via the empirical mean and empirical covariance. Another class of interconnections is seen in studying filtering algorithms with unknown parameters (such as noise covariances), where we use Bayesian inference algorithms and the optimal estimate is described by a probabilisitic weighted sum of the conditional posteriors. Under certain assumptions on system dynamics, we study asymptotic convergence for such algorithms towards the optimal solution determined by complete information of the parameters.</p>
+            </li>
+        </ul>
+        </div>
+            <div id="scroll">
+                <a title="Scroll to the top" class="top" href="#"><img src="images/top.png" alt="top" /></a>
+            </div>
+            <footer>
+                <p><a href="https://scholar.google.com/citations?user=ZLcomKkAAAAJ&hl"><img src="images/scholar.png" alt="google scholar" /></a>&nbsp;&nbsp;<a href="https://orcid.org/0000-0003-1387-2855"><img src="images/orcid.png" alt="orcid" /></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/atanwani"><img src="images/linkedin.png" alt="linkedin" /></a></p>
+                <p><a href="index.html">Home</a> | <a href="biography.html">About Me</a> | <a href="publications.html">Publications</a> | <a href="projects.html">Projects</a> | <a href="teaching.html">Teaching</a> | <a href="group.html">People</a></p>
+            </footer>
+        </div>
+        <!-- javascript at the bottom for fast page loading -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+        <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                              $('ul.sf-menu').sooperfish();
+                              $('.top').click(function() {$('html, body').animate({scrollTop:0}, 'fast'); return false;});
+                              });
+            </script>
+    </body>
+</html>

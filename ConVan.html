@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+    
+    <head>
+        <title>Aneel Tanwani</title>
+        <meta name="description" content="website description" />
+        <meta name="keywords" content="website keywords, website keywords" />
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <!-- modernizr enables HTML5 elements and feature detects -->
+        <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+    </head>
+    
+    <body>
+        <div id="main">
+            <header>
+                <div id="logo">
+                    <img border="0" src="pic_ece.jpg" align="left" width="80" height="105">
+                        <div id="logo_text">
+                            <!-- class="logo_colour", allows you to change the colour of the text -->
+                            <h1>&nbsp;&nbsp;<a href="index.html"><span class="logo_colour">Aneel Tanwani</span></a></h1>
+                            <h2>&nbsp;&nbsp;&nbsp;&nbsp;Researcher, <a href="http://www.laas.fr"  style="color:inherit;">LAAS</a> - <a href="http://www.cnrs.fr"  style="color:inherit;">CNRS</a></h2>
+                        </div>
+                        </div>
+                <nav>
+                    <div id="menu_container">
+                        <ul class="sf-menu" id="nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="biography.html">About Me</a></li>
+                            <li><a href="publications.html">Publications</a></li>
+                            <li><a href="projects.html">Projects</a>
+                                <ul>
+                                    <li><a href="ConVan.html">ConVan</a></li>
+                                </ul></li>
+                            <li><a href="teaching.html">Teaching</a></li>
+                            <li><a href="group.html">People</a>
+                                <ul>
+                                    <li><a href="group.html">Collaborators</a></li>
+                                    <li><a href="group.html">Group</a></li>
+                                </ul></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <div id="site_content">
+            <h2 align="center">ANR JCJC Project</h2>
+            <h1 align="center">Control of Constrained Interconnected Systems Using Variational Analysis (ConVan)</h1>
+        <ul>
+            <li> <b>Open Positions: <font color="B22222">Phd Thesis; MS internship</font></b>. Contact PI</li>
+            <li> <b>Principal Investigator:</b> Aneel Tanwani, Researcher, LAAS -- CNRS, Toulouse, France</li>
+            <li> <b>Participants:</b> Jean-Bernard Lasserre, Senior Researcher, LAAS -- CNRS, Toulouse, France
+            <li align="justify"> <b>Abstract:</b> Many physical and engineering systems are modeled mathematically by the dynamic equations, and the static relations describing constraints on evolution of trajectories. Interconnections of such constrained dynamical systems are observed in many practical applications and control of such systems is, not only of theoretical interest, but also has many advantages. This project proposes the study of control of interconnections of constrained dynamical systems using the mathematical tools from set-valued and variational analysis, with applications such as contact mechanics, traffic networks, and robust control of network of agents.<br>
+                    
+                The interesting feature of the constrained systems treated in this project arises from the nonsmooth behavior in the system description, and the trajectories. The mathematical models used for describing the constrained systems form a particular class of time-varying differential inclusions where the set-valued mapping may switch from zero (in the interior of the constraint set), to a cone (at the boundary of the constraint set). Such discontinuities in the vector field, and consequently in the state trajectory, require sophisticated mathematical tools for studying solution properties. When considering interconnections of such systems, which is the topic to be studied within the scope of ConVan, one has to take extreme care with regards to feasibility of such connections. Developing appropriate mathematical models and establishing solution properties for these interconnections is our first main goal.</br>
+                    
+                The second goal of this proposal is to carry out rigorous stability analysis for the interconnected constrained systems. Using a connection of two constrained systems as a template (which has its own significance in many control design problems), we aim to develop appropriate stability notions. This will be followed by investigating the use of nonsmooth Lyapunov functions to obtain constructive stability conditions. Once concrete analytical results are obtained for stability, we wish to use them for certain design problems with control inputs. Finally, we aim to use these results in network related applications where either the trajectories of individual subsystems are constrained, or new constraints appear due to interconnections.</br>
+                    
+                By working on these research problems, the coordinator aims to study appropriate mathematical models for interconnections of constrained systems, develop tools for stability analysis and control design for systems, and investigate network related applications. This way, ConVan aims to contribute towards development of fundamental research for numerics and control of constrained interconnected systems.</li>
+        </ul>
+        </div>
+            <div id="scroll">
+                <a title="Scroll to the top" class="top" href="#"><img src="images/top.png" alt="top" /></a>
+            </div>
+            <footer>
+                <p><a href="https://scholar.google.com/citations?user=ZLcomKkAAAAJ&hl"><img src="images/scholar.png" alt="google scholar" /></a>&nbsp;&nbsp;<a href="https://orcid.org/0000-0003-1387-2855"><img src="images/orcid.png" alt="orcid" /></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/atanwani"><img src="images/linkedin.png" alt="linkedin" /></a></p>
+                <p><a href="index.html">Home</a> | <a href="biography.html">About Me</a> | <a href="publications.html">Publications</a> | <a href="projects.html">Projects</a> | <a href="teaching.html">Teaching</a> | <a href="group.html">People</a></p>
+            </footer>
+        </div>
+        <!-- javascript at the bottom for fast page loading -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+        <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                              $('ul.sf-menu').sooperfish();
+                              $('.top').click(function() {$('html, body').animate({scrollTop:0}, 'fast'); return false;});
+                              });
+            </script>
+    </body>
+</html>
